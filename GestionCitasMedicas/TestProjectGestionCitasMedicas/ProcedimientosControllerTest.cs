@@ -52,12 +52,13 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 await context.SaveChangesAsync();
 
                 var procedimiento = new Procedimiento
                 {
+                    Id=1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = 100
@@ -95,10 +96,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = 100
@@ -125,6 +127,7 @@ namespace TestProjectGestionCitasMedicas
                 var controller = new ProcedimientosController(context);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = 999,
                     Descripcion = "Procedimiento test",
                     Costo = 100
@@ -143,13 +146,14 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 await context.SaveChangesAsync();
 
                 var controller = new ProcedimientosController(context);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = -100
@@ -168,13 +172,14 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 await context.SaveChangesAsync();
 
                 var controller = new ProcedimientosController(context);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = 100
@@ -217,10 +222,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = 100
@@ -244,10 +250,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = 100
@@ -271,10 +278,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = 100
@@ -315,10 +323,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var cita = new Cita();
+                var cita = new Cita { Id = 1 };
                 context.Citas.Add(cita);
                 var procedimiento = new Procedimiento
                 {
+                    Id = 1,
                     CitaId = cita.Id,
                     Descripcion = "Procedimiento test",
                     Costo = 100

@@ -53,7 +53,7 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                context.Pacientes.Add(new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) });
+                context.Pacientes.Add(new Paciente { Id=1,Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) });
                 await context.SaveChangesAsync();
 
                 var controller = new PacientesController(context);
@@ -71,11 +71,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente {Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
                 context.Pacientes.Add(paciente);
                 await context.SaveChangesAsync();
 
-                context.Citas.Add(new Cita { PacienteId = paciente.Id, Fecha = DateTime.Now });
+                context.Citas.Add(new Cita { Id = 1, PacienteId = paciente.Id, Fecha = DateTime.Now });
                 await context.SaveChangesAsync();
 
                 var controller = new PacientesController(context);
@@ -109,7 +109,7 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente {Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
                 context.Pacientes.Add(paciente);
                 await context.SaveChangesAsync();
 
@@ -130,7 +130,7 @@ namespace TestProjectGestionCitasMedicas
             using (var context = new AppDBContext(_dbContextOptions))
             {
                 var controller = new PacientesController(context);
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = DateTime.Now.AddDays(1) };
+                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = DateTime.Now.AddDays(1) };
 
                 var result = await controller.CreatePaciente(paciente);
 
@@ -146,7 +146,7 @@ namespace TestProjectGestionCitasMedicas
             using (var context = new AppDBContext(_dbContextOptions))
             {
                 var controller = new PacientesController(context);
-                var paciente = new Paciente { Nombre = "", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente { Id = 1, Nombre = "", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
 
                 var result = await controller.CreatePaciente(paciente);
 
@@ -161,7 +161,7 @@ namespace TestProjectGestionCitasMedicas
             using (var context = new AppDBContext(_dbContextOptions))
             {
                 var controller = new PacientesController(context);
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
 
                 var result = await controller.CreatePaciente(paciente);
 
@@ -179,7 +179,7 @@ namespace TestProjectGestionCitasMedicas
             using (var context = new AppDBContext(_dbContextOptions))
             {
                 var controller = new PacientesController(context);
-                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente {  Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
 
                 var result = await controller.UpdatePaciente(paciente);
 
@@ -194,7 +194,7 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
                 context.Pacientes.Add(paciente);
                 await context.SaveChangesAsync();
 
@@ -214,7 +214,7 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
                 context.Pacientes.Add(paciente);
                 await context.SaveChangesAsync();
 
@@ -233,7 +233,7 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
                 context.Pacientes.Add(paciente);
                 await context.SaveChangesAsync();
 
@@ -269,11 +269,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
                 context.Pacientes.Add(paciente);
                 await context.SaveChangesAsync();
 
-                context.Citas.Add(new Cita { PacienteId = paciente.Id });
+                context.Citas.Add(new Cita { Id = 1, PacienteId = paciente.Id });
                 await context.SaveChangesAsync();
 
                 var controller = new PacientesController(context);
@@ -290,7 +290,7 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var paciente = new Paciente { Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
+                var paciente = new Paciente { Id = 1, Nombre = "Juan", Apellido = "Perez", FechaNacimiento = new DateTime(1980, 1, 1) };
                 context.Pacientes.Add(paciente);
                 await context.SaveChangesAsync();
 

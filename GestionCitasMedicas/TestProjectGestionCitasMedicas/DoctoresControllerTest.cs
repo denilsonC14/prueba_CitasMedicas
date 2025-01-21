@@ -52,12 +52,12 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var doctor = new Doctor { Nombre = "Dr. Smith", Especialidad = "Cardiología" };
+                var doctor = new Doctor {Id = 1, Nombre = "Dr. Smith", Especialidad = "Cardiología" };
                 context.Doctores.Add(doctor);
                 await context.SaveChangesAsync();
 
                 var controller = new DoctoresController(context);
-                var newDoctor = new Doctor { Nombre = "Dr. Smith", Especialidad = "Cardiología" };
+                var newDoctor = new Doctor { Id = 1, Nombre = "Dr. Smith", Especialidad = "Cardiología" };
 
                 var result = await controller.CreateDoctor(newDoctor);
 
@@ -88,11 +88,11 @@ namespace TestProjectGestionCitasMedicas
             await LimpiarBaseDeDatos();
             using (var context = new AppDBContext(_dbContextOptions))
             {
-                var doctor = new Doctor { Nombre = "Dr. Smith", Especialidad = "Cardiología" };
+                var doctor = new Doctor { Id = 1, Nombre = "Dr. Smith", Especialidad = "Cardiología" };
                 context.Doctores.Add(doctor);
                 await context.SaveChangesAsync();
 
-                context.Citas.Add(new Cita { DoctorId = doctor.Id });
+                context.Citas.Add(new Cita { Id = 1, DoctorId = doctor.Id });
                 await context.SaveChangesAsync();
 
                 var controller = new DoctoresController(context);

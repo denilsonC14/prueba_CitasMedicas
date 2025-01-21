@@ -1,9 +1,9 @@
 ½
-±C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\obj\Debug\net8.0\TestProjectGestionCitasMedicas.AssemblyInfo.csutf-8½
-±C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8¿
-³C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\obj\Debug\net8.0\TestProjectGestionCitasMedicas.GlobalUsings.g.csutf-8}
-rC:\Users\carlo\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8›
-‘C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\ProcedimientosControllerTest.csutf-8–
-ŒC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\PacientesControllerTest.csutf-8•
+±C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8–
+ŒC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\PacientesControllerTest.csutf-8›
+‘C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\ProcedimientosControllerTest.csutf-8¿
+³C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\obj\Debug\net8.0\TestProjectGestionCitasMedicas.GlobalUsings.g.csutf-8½
+±C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\obj\Debug\net8.0\TestProjectGestionCitasMedicas.AssemblyInfo.csutf-8}
+rC:\Users\carlo\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8•
 ‹C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\DoctoresControllerTest.csutf-8’
 ˆC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\CitasControllerTest.csutf-8

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <results>
   <modules>
-    <module id="6CF58D167192174CAEA0255605BB85AD511243D4" name="TestProjectGestionCitasMedicas.dll" path="TestProjectGestionCitasMedicas.dll" block_coverage="99.63" line_coverage="99.38" blocks_covered="1091" blocks_not_covered="4" lines_covered="644" lines_partially_covered="0" lines_not_covered="4">
+    <module id="0ADF5D6D31AD8A4DB8518E87FCE145B3B63500A0" name="TestProjectGestionCitasMedicas.dll" path="TestProjectGestionCitasMedicas.dll" block_coverage="84.56" line_coverage="83.69" blocks_covered="964" blocks_not_covered="176" lines_covered="554" lines_partially_covered="0" lines_not_covered="108">
       <functions>
         <function id="8284" token="0x6000003" name="CitasControllerTest()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest" block_coverage="100.00" line_coverage="100.00" blocks_covered="5" blocks_not_covered="0" lines_covered="6" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
@@ -35,103 +35,103 @@
             <range source_id="3" start_line="22" end_line="22" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="11312" token="0x6000032" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;CreateCita_ReturnsBadRequest_WhenDoctorDoesNotExist&gt;d__7" block_coverage="100.00" line_coverage="100.00" blocks_covered="34" blocks_not_covered="0" lines_covered="19" lines_partially_covered="0" lines_not_covered="0">
+        <function id="11312" token="0x6000032" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;CreateCita_ReturnsBadRequest_WhenDoctorDoesNotExist&gt;d__7" block_coverage="100.00" line_coverage="100.00" blocks_covered="36" blocks_not_covered="0" lines_covered="20" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="0" start_line="122" end_line="122" start_column="9" end_column="10" covered="yes" />
-            <range source_id="0" start_line="123" end_line="123" start_column="13" end_column="40" covered="yes" />
-            <range source_id="0" start_line="124" end_line="124" start_column="20" end_column="69" covered="yes" />
-            <range source_id="0" start_line="125" end_line="125" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="126" end_line="126" start_column="17" end_column="129" covered="yes" />
-            <range source_id="0" start_line="127" end_line="127" start_column="17" end_column="49" covered="yes" />
-            <range source_id="0" start_line="128" end_line="128" start_column="17" end_column="50" covered="yes" />
-            <range source_id="0" start_line="130" end_line="130" start_column="17" end_column="63" covered="yes" />
-            <range source_id="0" start_line="131" end_line="136" start_column="17" end_column="19" covered="yes" />
-            <range source_id="0" start_line="138" end_line="138" start_column="17" end_column="64" covered="yes" />
-            <range source_id="0" start_line="140" end_line="140" start_column="17" end_column="86" covered="yes" />
-            <range source_id="0" start_line="141" end_line="141" start_column="17" end_column="77" covered="yes" />
-            <range source_id="0" start_line="142" end_line="142" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="143" end_line="143" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="124" end_line="124" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="125" end_line="125" start_column="13" end_column="40" covered="yes" />
+            <range source_id="0" start_line="126" end_line="126" start_column="20" end_column="69" covered="yes" />
+            <range source_id="0" start_line="127" end_line="127" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="128" end_line="128" start_column="17" end_column="136" covered="yes" />
+            <range source_id="0" start_line="129" end_line="129" start_column="17" end_column="49" covered="yes" />
+            <range source_id="0" start_line="130" end_line="130" start_column="17" end_column="50" covered="yes" />
+            <range source_id="0" start_line="132" end_line="132" start_column="17" end_column="63" covered="yes" />
+            <range source_id="0" start_line="133" end_line="139" start_column="17" end_column="19" covered="yes" />
+            <range source_id="0" start_line="141" end_line="141" start_column="17" end_column="64" covered="yes" />
+            <range source_id="0" start_line="143" end_line="143" start_column="17" end_column="86" covered="yes" />
+            <range source_id="0" start_line="144" end_line="144" start_column="17" end_column="77" covered="yes" />
+            <range source_id="0" start_line="145" end_line="145" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="146" end_line="146" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="12132" token="0x6000035" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;CreateCita_ReturnsBadRequest_WhenPatientDoesNotExist&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="31" blocks_not_covered="0" lines_covered="19" lines_partially_covered="0" lines_not_covered="0">
+        <function id="12148" token="0x6000035" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;CreateCita_ReturnsBadRequest_WhenPatientDoesNotExist&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="33" blocks_not_covered="0" lines_covered="20" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="0" start_line="97" end_line="97" start_column="9" end_column="10" covered="yes" />
-            <range source_id="0" start_line="98" end_line="98" start_column="13" end_column="40" covered="yes" />
-            <range source_id="0" start_line="99" end_line="99" start_column="20" end_column="69" covered="yes" />
-            <range source_id="0" start_line="100" end_line="100" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="101" end_line="101" start_column="17" end_column="96" covered="yes" />
-            <range source_id="0" start_line="102" end_line="102" start_column="17" end_column="46" covered="yes" />
-            <range source_id="0" start_line="103" end_line="103" start_column="17" end_column="50" covered="yes" />
-            <range source_id="0" start_line="105" end_line="105" start_column="17" end_column="63" covered="yes" />
-            <range source_id="0" start_line="106" end_line="111" start_column="17" end_column="19" covered="yes" />
-            <range source_id="0" start_line="113" end_line="113" start_column="17" end_column="64" covered="yes" />
-            <range source_id="0" start_line="115" end_line="115" start_column="17" end_column="86" covered="yes" />
-            <range source_id="0" start_line="116" end_line="116" start_column="17" end_column="79" covered="yes" />
-            <range source_id="0" start_line="117" end_line="117" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="118" end_line="118" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="98" end_line="98" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="99" end_line="99" start_column="13" end_column="40" covered="yes" />
+            <range source_id="0" start_line="100" end_line="100" start_column="20" end_column="69" covered="yes" />
+            <range source_id="0" start_line="101" end_line="101" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="102" end_line="102" start_column="17" end_column="103" covered="yes" />
+            <range source_id="0" start_line="103" end_line="103" start_column="17" end_column="46" covered="yes" />
+            <range source_id="0" start_line="104" end_line="104" start_column="17" end_column="50" covered="yes" />
+            <range source_id="0" start_line="106" end_line="106" start_column="17" end_column="63" covered="yes" />
+            <range source_id="0" start_line="107" end_line="113" start_column="17" end_column="19" covered="yes" />
+            <range source_id="0" start_line="115" end_line="115" start_column="17" end_column="64" covered="yes" />
+            <range source_id="0" start_line="117" end_line="117" start_column="17" end_column="86" covered="yes" />
+            <range source_id="0" start_line="118" end_line="118" start_column="17" end_column="79" covered="yes" />
+            <range source_id="0" start_line="119" end_line="119" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="120" end_line="120" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="12928" token="0x6000038" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;DeleteCita_ReturnsBadRequest_WhenAppointmentHasProcedures&gt;d__8" block_coverage="100.00" line_coverage="100.00" blocks_covered="59" blocks_not_covered="0" lines_covered="30" lines_partially_covered="0" lines_not_covered="0">
+        <function id="12960" token="0x6000038" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;DeleteCita_ReturnsBadRequest_WhenAppointmentHasProcedures&gt;d__8" block_coverage="100.00" line_coverage="100.00" blocks_covered="63" blocks_not_covered="0" lines_covered="32" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="0" start_line="147" end_line="147" start_column="9" end_column="10" covered="yes" />
-            <range source_id="0" start_line="148" end_line="148" start_column="13" end_column="40" covered="yes" />
-            <range source_id="0" start_line="149" end_line="149" start_column="20" end_column="69" covered="yes" />
-            <range source_id="0" start_line="150" end_line="150" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="151" end_line="151" start_column="17" end_column="129" covered="yes" />
-            <range source_id="0" start_line="152" end_line="152" start_column="17" end_column="96" covered="yes" />
-            <range source_id="0" start_line="153" end_line="153" start_column="17" end_column="49" covered="yes" />
-            <range source_id="0" start_line="154" end_line="154" start_column="17" end_column="46" covered="yes" />
-            <range source_id="0" start_line="155" end_line="155" start_column="17" end_column="50" covered="yes" />
-            <range source_id="0" start_line="157" end_line="162" start_column="17" end_column="19" covered="yes" />
-            <range source_id="0" start_line="163" end_line="163" start_column="17" end_column="41" covered="yes" />
-            <range source_id="0" start_line="164" end_line="164" start_column="17" end_column="50" covered="yes" />
-            <range source_id="0" start_line="166" end_line="171" start_column="17" end_column="20" covered="yes" />
-            <range source_id="0" start_line="172" end_line="172" start_column="17" end_column="50" covered="yes" />
-            <range source_id="0" start_line="174" end_line="174" start_column="17" end_column="63" covered="yes" />
-            <range source_id="0" start_line="175" end_line="175" start_column="17" end_column="67" covered="yes" />
-            <range source_id="0" start_line="177" end_line="177" start_column="17" end_column="86" covered="yes" />
-            <range source_id="0" start_line="178" end_line="178" start_column="17" end_column="124" covered="yes" />
-            <range source_id="0" start_line="179" end_line="179" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="180" end_line="180" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="150" end_line="150" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="151" end_line="151" start_column="13" end_column="40" covered="yes" />
+            <range source_id="0" start_line="152" end_line="152" start_column="20" end_column="69" covered="yes" />
+            <range source_id="0" start_line="153" end_line="153" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="154" end_line="154" start_column="17" end_column="137" covered="yes" />
+            <range source_id="0" start_line="155" end_line="155" start_column="17" end_column="104" covered="yes" />
+            <range source_id="0" start_line="156" end_line="156" start_column="17" end_column="49" covered="yes" />
+            <range source_id="0" start_line="157" end_line="157" start_column="17" end_column="46" covered="yes" />
+            <range source_id="0" start_line="158" end_line="158" start_column="17" end_column="50" covered="yes" />
+            <range source_id="0" start_line="160" end_line="166" start_column="17" end_column="19" covered="yes" />
+            <range source_id="0" start_line="167" end_line="167" start_column="17" end_column="41" covered="yes" />
+            <range source_id="0" start_line="168" end_line="168" start_column="17" end_column="50" covered="yes" />
+            <range source_id="0" start_line="170" end_line="176" start_column="17" end_column="20" covered="yes" />
+            <range source_id="0" start_line="177" end_line="177" start_column="17" end_column="50" covered="yes" />
+            <range source_id="0" start_line="179" end_line="179" start_column="17" end_column="63" covered="yes" />
+            <range source_id="0" start_line="180" end_line="180" start_column="17" end_column="67" covered="yes" />
+            <range source_id="0" start_line="182" end_line="182" start_column="17" end_column="86" covered="yes" />
+            <range source_id="0" start_line="183" end_line="183" start_column="17" end_column="124" covered="yes" />
+            <range source_id="0" start_line="184" end_line="184" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="185" end_line="185" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="14176" token="0x600003b" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;GetCita_ReturnsNotFound_WhenAppointmentDoesNotExist&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+        <function id="14240" token="0x600003b" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;GetCita_ReturnsNotFound_WhenAppointmentDoesNotExist&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="0" start_line="83" end_line="83" start_column="9" end_column="10" covered="yes" />
-            <range source_id="0" start_line="84" end_line="84" start_column="13" end_column="40" covered="yes" />
-            <range source_id="0" start_line="85" end_line="85" start_column="20" end_column="69" covered="yes" />
-            <range source_id="0" start_line="86" end_line="86" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="87" end_line="87" start_column="17" end_column="63" covered="yes" />
-            <range source_id="0" start_line="88" end_line="88" start_column="17" end_column="58" covered="yes" />
-            <range source_id="0" start_line="90" end_line="90" start_column="17" end_column="82" covered="yes" />
-            <range source_id="0" start_line="91" end_line="91" start_column="17" end_column="73" covered="yes" />
-            <range source_id="0" start_line="92" end_line="92" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="93" end_line="93" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="84" end_line="84" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="85" end_line="85" start_column="13" end_column="40" covered="yes" />
+            <range source_id="0" start_line="86" end_line="86" start_column="20" end_column="69" covered="yes" />
+            <range source_id="0" start_line="87" end_line="87" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="88" end_line="88" start_column="17" end_column="63" covered="yes" />
+            <range source_id="0" start_line="89" end_line="89" start_column="17" end_column="58" covered="yes" />
+            <range source_id="0" start_line="91" end_line="91" start_column="17" end_column="82" covered="yes" />
+            <range source_id="0" start_line="92" end_line="92" start_column="17" end_column="73" covered="yes" />
+            <range source_id="0" start_line="93" end_line="93" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="94" end_line="94" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="14696" token="0x600003e" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;GetCitas_ReturnsAppointmentList_WhenAppointmentsExist&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="47" blocks_not_covered="0" lines_covered="24" lines_partially_covered="0" lines_not_covered="0">
+        <function id="14760" token="0x600003e" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;GetCitas_ReturnsAppointmentList_WhenAppointmentsExist&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="50" blocks_not_covered="0" lines_covered="25" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="0" start_line="53" end_line="53" start_column="9" end_column="10" covered="yes" />
             <range source_id="0" start_line="54" end_line="54" start_column="13" end_column="40" covered="yes" />
             <range source_id="0" start_line="55" end_line="55" start_column="20" end_column="69" covered="yes" />
             <range source_id="0" start_line="56" end_line="56" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="57" end_line="57" start_column="17" end_column="129" covered="yes" />
-            <range source_id="0" start_line="58" end_line="58" start_column="17" end_column="96" covered="yes" />
+            <range source_id="0" start_line="57" end_line="57" start_column="17" end_column="135" covered="yes" />
+            <range source_id="0" start_line="58" end_line="58" start_column="17" end_column="104" covered="yes" />
             <range source_id="0" start_line="59" end_line="59" start_column="17" end_column="49" covered="yes" />
             <range source_id="0" start_line="60" end_line="60" start_column="17" end_column="46" covered="yes" />
             <range source_id="0" start_line="61" end_line="61" start_column="17" end_column="50" covered="yes" />
-            <range source_id="0" start_line="63" end_line="69" start_column="17" end_column="20" covered="yes" />
-            <range source_id="0" start_line="70" end_line="70" start_column="17" end_column="50" covered="yes" />
-            <range source_id="0" start_line="72" end_line="72" start_column="17" end_column="63" covered="yes" />
-            <range source_id="0" start_line="73" end_line="73" start_column="17" end_column="58" covered="yes" />
-            <range source_id="0" start_line="75" end_line="75" start_column="17" end_column="70" covered="yes" />
-            <range source_id="0" start_line="76" end_line="76" start_column="17" end_column="71" covered="yes" />
-            <range source_id="0" start_line="77" end_line="77" start_column="17" end_column="38" covered="yes" />
-            <range source_id="0" start_line="78" end_line="78" start_column="13" end_column="14" covered="yes" />
-            <range source_id="0" start_line="79" end_line="79" start_column="9" end_column="10" covered="yes" />
+            <range source_id="0" start_line="63" end_line="70" start_column="17" end_column="20" covered="yes" />
+            <range source_id="0" start_line="71" end_line="71" start_column="17" end_column="50" covered="yes" />
+            <range source_id="0" start_line="73" end_line="73" start_column="17" end_column="63" covered="yes" />
+            <range source_id="0" start_line="74" end_line="74" start_column="17" end_column="58" covered="yes" />
+            <range source_id="0" start_line="76" end_line="76" start_column="17" end_column="70" covered="yes" />
+            <range source_id="0" start_line="77" end_line="77" start_column="17" end_column="71" covered="yes" />
+            <range source_id="0" start_line="78" end_line="78" start_column="17" end_column="38" covered="yes" />
+            <range source_id="0" start_line="79" end_line="79" start_column="13" end_column="14" covered="yes" />
+            <range source_id="0" start_line="80" end_line="80" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="15744" token="0x6000041" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;GetCitas_ReturnsEmptyList_WhenNoAppointmentsExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+        <function id="15832" token="0x6000041" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;GetCitas_ReturnsEmptyList_WhenNoAppointmentsExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="0" start_line="38" end_line="38" start_column="9" end_column="10" covered="yes" />
             <range source_id="0" start_line="39" end_line="39" start_column="13" end_column="40" covered="yes" />
@@ -146,7 +146,7 @@
             <range source_id="0" start_line="49" end_line="49" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="16284" token="0x6000044" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="19" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+        <function id="16372" token="0x6000044" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="CitasControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="19" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="0" start_line="25" end_line="25" start_column="9" end_column="10" covered="yes" />
             <range source_id="0" start_line="26" end_line="26" start_column="20" end_column="69" covered="yes" />
@@ -160,17 +160,17 @@
             <range source_id="0" start_line="34" end_line="34" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="16712" token="0x6000047" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;CreateDoctor_ReturnsBadRequest_WhenDoctorAlreadyExists&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="25" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+        <function id="16800" token="0x6000047" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;CreateDoctor_ReturnsBadRequest_WhenDoctorAlreadyExists&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="27" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="1" start_line="51" end_line="51" start_column="9" end_column="10" covered="yes" />
             <range source_id="1" start_line="52" end_line="52" start_column="13" end_column="40" covered="yes" />
             <range source_id="1" start_line="53" end_line="53" start_column="20" end_column="69" covered="yes" />
             <range source_id="1" start_line="54" end_line="54" start_column="13" end_column="14" covered="yes" />
-            <range source_id="1" start_line="55" end_line="55" start_column="17" end_column="96" covered="yes" />
+            <range source_id="1" start_line="55" end_line="55" start_column="17" end_column="103" covered="yes" />
             <range source_id="1" start_line="56" end_line="56" start_column="17" end_column="46" covered="yes" />
             <range source_id="1" start_line="57" end_line="57" start_column="17" end_column="50" covered="yes" />
             <range source_id="1" start_line="59" end_line="59" start_column="17" end_column="66" covered="yes" />
-            <range source_id="1" start_line="60" end_line="60" start_column="17" end_column="99" covered="yes" />
+            <range source_id="1" start_line="60" end_line="60" start_column="17" end_column="107" covered="yes" />
             <range source_id="1" start_line="62" end_line="62" start_column="17" end_column="71" covered="yes" />
             <range source_id="1" start_line="64" end_line="64" start_column="17" end_column="86" covered="yes" />
             <range source_id="1" start_line="65" end_line="65" start_column="17" end_column="112" covered="yes" />
@@ -178,26 +178,26 @@
             <range source_id="1" start_line="67" end_line="67" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="17476" token="0x600004a" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;DeleteDoctor_ReturnsBadRequest_WhenDoctorHasAppointments&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="32" blocks_not_covered="0" lines_covered="15" lines_partially_covered="0" lines_not_covered="0">
+        <function id="17580" token="0x600004a" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;DeleteDoctor_ReturnsBadRequest_WhenDoctorHasAppointments&gt;d__6" block_coverage="70.59" line_coverage="60.00" blocks_covered="24" blocks_not_covered="10" lines_covered="9" lines_partially_covered="0" lines_not_covered="6">
           <ranges>
             <range source_id="1" start_line="87" end_line="87" start_column="9" end_column="10" covered="yes" />
             <range source_id="1" start_line="88" end_line="88" start_column="13" end_column="40" covered="yes" />
             <range source_id="1" start_line="89" end_line="89" start_column="20" end_column="69" covered="yes" />
             <range source_id="1" start_line="90" end_line="90" start_column="13" end_column="14" covered="yes" />
-            <range source_id="1" start_line="91" end_line="91" start_column="17" end_column="96" covered="yes" />
+            <range source_id="1" start_line="91" end_line="91" start_column="17" end_column="104" covered="yes" />
             <range source_id="1" start_line="92" end_line="92" start_column="17" end_column="46" covered="yes" />
             <range source_id="1" start_line="93" end_line="93" start_column="17" end_column="50" covered="yes" />
-            <range source_id="1" start_line="95" end_line="95" start_column="17" end_column="70" covered="yes" />
+            <range source_id="1" start_line="95" end_line="95" start_column="17" end_column="78" covered="yes" />
             <range source_id="1" start_line="96" end_line="96" start_column="17" end_column="50" covered="yes" />
-            <range source_id="1" start_line="98" end_line="98" start_column="17" end_column="66" covered="yes" />
-            <range source_id="1" start_line="99" end_line="99" start_column="17" end_column="71" covered="yes" />
-            <range source_id="1" start_line="101" end_line="101" start_column="17" end_column="86" covered="yes" />
-            <range source_id="1" start_line="102" end_line="102" start_column="17" end_column="117" covered="yes" />
-            <range source_id="1" start_line="103" end_line="103" start_column="13" end_column="14" covered="yes" />
-            <range source_id="1" start_line="104" end_line="104" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="98" end_line="98" start_column="17" end_column="66" covered="no" />
+            <range source_id="1" start_line="99" end_line="99" start_column="17" end_column="71" covered="no" />
+            <range source_id="1" start_line="101" end_line="101" start_column="17" end_column="86" covered="no" />
+            <range source_id="1" start_line="102" end_line="102" start_column="17" end_column="117" covered="no" />
+            <range source_id="1" start_line="103" end_line="103" start_column="13" end_column="14" covered="no" />
+            <range source_id="1" start_line="104" end_line="104" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="18376" token="0x600004d" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;GetDoctores_ReturnsEmptyList_WhenNoDoctorsExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+        <function id="18496" token="0x600004d" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;GetDoctores_ReturnsEmptyList_WhenNoDoctorsExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="1" start_line="36" end_line="36" start_column="9" end_column="10" covered="yes" />
             <range source_id="1" start_line="37" end_line="37" start_column="13" end_column="40" covered="yes" />
@@ -212,7 +212,7 @@
             <range source_id="1" start_line="47" end_line="47" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="18916" token="0x6000050" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
+        <function id="19036" token="0x6000050" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="1" start_line="25" end_line="25" start_column="9" end_column="10" covered="yes" />
             <range source_id="1" start_line="26" end_line="26" start_column="20" end_column="69" covered="yes" />
@@ -224,7 +224,7 @@
             <range source_id="1" start_line="32" end_line="32" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="19264" token="0x6000053" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;UpdateDoctor_ReturnsNotFound_WhenDoctorDoesNotExist&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="18" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+        <function id="19384" token="0x6000053" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="DoctoresControllerTest.&lt;UpdateDoctor_ReturnsNotFound_WhenDoctorDoesNotExist&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="18" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="1" start_line="71" end_line="71" start_column="9" end_column="10" covered="yes" />
             <range source_id="1" start_line="72" end_line="72" start_column="13" end_column="40" covered="yes" />
@@ -239,14 +239,14 @@
             <range source_id="1" start_line="83" end_line="83" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="19844" token="0x6000056" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;CreatePaciente_ReturnsBadRequest_WhenBirthdateIsInFuture&gt;d__8" block_coverage="100.00" line_coverage="100.00" blocks_covered="21" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+        <function id="19964" token="0x6000056" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;CreatePaciente_ReturnsBadRequest_WhenBirthdateIsInFuture&gt;d__8" block_coverage="100.00" line_coverage="100.00" blocks_covered="22" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="128" end_line="128" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="129" end_line="129" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="130" end_line="130" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="131" end_line="131" start_column="13" end_column="14" covered="yes" />
             <range source_id="2" start_line="132" end_line="132" start_column="17" end_column="67" covered="yes" />
-            <range source_id="2" start_line="133" end_line="133" start_column="17" end_column="128" covered="yes" />
+            <range source_id="2" start_line="133" end_line="133" start_column="17" end_column="136" covered="yes" />
             <range source_id="2" start_line="135" end_line="135" start_column="17" end_column="72" covered="yes" />
             <range source_id="2" start_line="137" end_line="137" start_column="17" end_column="86" covered="yes" />
             <range source_id="2" start_line="138" end_line="138" start_column="17" end_column="117" covered="yes" />
@@ -254,28 +254,28 @@
             <range source_id="2" start_line="140" end_line="140" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="20452" token="0x6000059" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;CreatePaciente_ReturnsBadRequest_WhenNameIsEmpty&gt;d__9" block_coverage="88.89" line_coverage="80.00" blocks_covered="16" blocks_not_covered="2" lines_covered="8" lines_partially_covered="0" lines_not_covered="2">
+        <function id="20580" token="0x6000059" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;CreatePaciente_ReturnsBadRequest_WhenNameIsEmpty&gt;d__9" block_coverage="89.47" line_coverage="80.00" blocks_covered="17" blocks_not_covered="2" lines_covered="8" lines_partially_covered="0" lines_not_covered="2">
           <ranges>
             <range source_id="2" start_line="144" end_line="144" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="145" end_line="145" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="146" end_line="146" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="147" end_line="147" start_column="13" end_column="14" covered="yes" />
             <range source_id="2" start_line="148" end_line="148" start_column="17" end_column="67" covered="yes" />
-            <range source_id="2" start_line="149" end_line="149" start_column="17" end_column="125" covered="yes" />
+            <range source_id="2" start_line="149" end_line="149" start_column="17" end_column="133" covered="yes" />
             <range source_id="2" start_line="151" end_line="151" start_column="17" end_column="72" covered="yes" />
             <range source_id="2" start_line="153" end_line="153" start_column="17" end_column="63" covered="yes" />
             <range source_id="2" start_line="154" end_line="154" start_column="13" end_column="14" covered="no" />
             <range source_id="2" start_line="155" end_line="155" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="21012" token="0x600005c" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;CreatePaciente_ReturnsOk_WhenPatientIsValid&gt;d__10" block_coverage="100.00" line_coverage="100.00" blocks_covered="23" blocks_not_covered="0" lines_covered="12" lines_partially_covered="0" lines_not_covered="0">
+        <function id="21148" token="0x600005c" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;CreatePaciente_ReturnsOk_WhenPatientIsValid&gt;d__10" block_coverage="100.00" line_coverage="100.00" blocks_covered="24" blocks_not_covered="0" lines_covered="12" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="159" end_line="159" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="160" end_line="160" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="161" end_line="161" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="162" end_line="162" start_column="13" end_column="14" covered="yes" />
             <range source_id="2" start_line="163" end_line="163" start_column="17" end_column="67" covered="yes" />
-            <range source_id="2" start_line="164" end_line="164" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="164" end_line="164" start_column="17" end_column="137" covered="yes" />
             <range source_id="2" start_line="166" end_line="166" start_column="17" end_column="72" covered="yes" />
             <range source_id="2" start_line="168" end_line="168" start_column="17" end_column="70" covered="yes" />
             <range source_id="2" start_line="169" end_line="169" start_column="17" end_column="80" covered="yes" />
@@ -284,26 +284,26 @@
             <range source_id="2" start_line="172" end_line="172" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="21640" token="0x600005f" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;DeletePaciente_ReturnsBadRequest_WhenPatientHasCitas&gt;d__16" block_coverage="100.00" line_coverage="100.00" blocks_covered="35" blocks_not_covered="0" lines_covered="15" lines_partially_covered="0" lines_not_covered="0">
+        <function id="21784" token="0x600005f" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;DeletePaciente_ReturnsBadRequest_WhenPatientHasCitas&gt;d__16" block_coverage="72.97" line_coverage="60.00" blocks_covered="27" blocks_not_covered="10" lines_covered="9" lines_partially_covered="0" lines_not_covered="6">
           <ranges>
             <range source_id="2" start_line="268" end_line="268" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="269" end_line="269" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="270" end_line="270" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="271" end_line="271" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="272" end_line="272" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="272" end_line="272" start_column="17" end_column="137" covered="yes" />
             <range source_id="2" start_line="273" end_line="273" start_column="17" end_column="49" covered="yes" />
             <range source_id="2" start_line="274" end_line="274" start_column="17" end_column="50" covered="yes" />
-            <range source_id="2" start_line="276" end_line="276" start_column="17" end_column="74" covered="yes" />
+            <range source_id="2" start_line="276" end_line="276" start_column="17" end_column="82" covered="yes" />
             <range source_id="2" start_line="277" end_line="277" start_column="17" end_column="50" covered="yes" />
-            <range source_id="2" start_line="279" end_line="279" start_column="17" end_column="67" covered="yes" />
-            <range source_id="2" start_line="280" end_line="280" start_column="17" end_column="75" covered="yes" />
-            <range source_id="2" start_line="282" end_line="282" start_column="17" end_column="86" covered="yes" />
-            <range source_id="2" start_line="283" end_line="283" start_column="17" end_column="119" covered="yes" />
-            <range source_id="2" start_line="284" end_line="284" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="285" end_line="285" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="279" end_line="279" start_column="17" end_column="67" covered="no" />
+            <range source_id="2" start_line="280" end_line="280" start_column="17" end_column="75" covered="no" />
+            <range source_id="2" start_line="282" end_line="282" start_column="17" end_column="86" covered="no" />
+            <range source_id="2" start_line="283" end_line="283" start_column="17" end_column="119" covered="no" />
+            <range source_id="2" start_line="284" end_line="284" start_column="13" end_column="14" covered="no" />
+            <range source_id="2" start_line="285" end_line="285" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="22564" token="0x6000062" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;DeletePaciente_ReturnsNotFound_WhenPatientDoesNotExist&gt;d__15" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+        <function id="22724" token="0x6000062" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;DeletePaciente_ReturnsNotFound_WhenPatientDoesNotExist&gt;d__15" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="254" end_line="254" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="255" end_line="255" start_column="13" end_column="40" covered="yes" />
@@ -317,13 +317,13 @@
             <range source_id="2" start_line="264" end_line="264" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="23084" token="0x6000065" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;DeletePaciente_ReturnsOk_WhenPatientIsDeleted&gt;d__17" block_coverage="100.00" line_coverage="100.00" blocks_covered="29" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+        <function id="23244" token="0x6000065" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;DeletePaciente_ReturnsOk_WhenPatientIsDeleted&gt;d__17" block_coverage="100.00" line_coverage="100.00" blocks_covered="30" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="289" end_line="289" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="290" end_line="290" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="291" end_line="291" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="292" end_line="292" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="293" end_line="293" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="293" end_line="293" start_column="17" end_column="137" covered="yes" />
             <range source_id="2" start_line="294" end_line="294" start_column="17" end_column="49" covered="yes" />
             <range source_id="2" start_line="295" end_line="295" start_column="17" end_column="50" covered="yes" />
             <range source_id="2" start_line="297" end_line="297" start_column="17" end_column="67" covered="yes" />
@@ -335,7 +335,7 @@
             <range source_id="2" start_line="304" end_line="304" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="23868" token="0x6000068" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPaciente_ReturnsNotFound_WhenPatientDoesNotExist&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+        <function id="24036" token="0x6000068" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPaciente_ReturnsNotFound_WhenPatientDoesNotExist&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="94" end_line="94" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="95" end_line="95" start_column="13" end_column="40" covered="yes" />
@@ -349,13 +349,13 @@
             <range source_id="2" start_line="104" end_line="104" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="24388" token="0x600006b" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPaciente_ReturnsPatient_WhenPatientExists&gt;d__7" block_coverage="100.00" line_coverage="100.00" blocks_covered="29" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+        <function id="24556" token="0x600006b" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPaciente_ReturnsPatient_WhenPatientExists&gt;d__7" block_coverage="100.00" line_coverage="100.00" blocks_covered="30" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="108" end_line="108" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="109" end_line="109" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="110" end_line="110" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="111" end_line="111" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="112" end_line="112" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="112" end_line="112" start_column="17" end_column="136" covered="yes" />
             <range source_id="2" start_line="113" end_line="113" start_column="17" end_column="49" covered="yes" />
             <range source_id="2" start_line="114" end_line="114" start_column="17" end_column="50" covered="yes" />
             <range source_id="2" start_line="116" end_line="116" start_column="17" end_column="67" covered="yes" />
@@ -367,28 +367,28 @@
             <range source_id="2" start_line="123" end_line="123" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="25172" token="0x600006e" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPacientes_IncludesCitas_WhenPatientsHaveAppointments&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="41" blocks_not_covered="0" lines_covered="17" lines_partially_covered="0" lines_not_covered="0">
+        <function id="25348" token="0x600006e" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPacientes_IncludesCitas_WhenPatientsHaveAppointments&gt;d__5" block_coverage="69.77" line_coverage="52.94" blocks_covered="30" blocks_not_covered="13" lines_covered="9" lines_partially_covered="0" lines_not_covered="8">
           <ranges>
             <range source_id="2" start_line="70" end_line="70" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="71" end_line="71" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="72" end_line="72" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="73" end_line="73" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="74" end_line="74" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="74" end_line="74" start_column="17" end_column="136" covered="yes" />
             <range source_id="2" start_line="75" end_line="75" start_column="17" end_column="49" covered="yes" />
             <range source_id="2" start_line="76" end_line="76" start_column="17" end_column="50" covered="yes" />
-            <range source_id="2" start_line="78" end_line="78" start_column="17" end_column="96" covered="yes" />
+            <range source_id="2" start_line="78" end_line="78" start_column="17" end_column="104" covered="yes" />
             <range source_id="2" start_line="79" end_line="79" start_column="17" end_column="50" covered="yes" />
-            <range source_id="2" start_line="81" end_line="81" start_column="17" end_column="67" covered="yes" />
-            <range source_id="2" start_line="82" end_line="82" start_column="17" end_column="62" covered="yes" />
-            <range source_id="2" start_line="84" end_line="84" start_column="17" end_column="70" covered="yes" />
-            <range source_id="2" start_line="85" end_line="85" start_column="17" end_column="79" covered="yes" />
-            <range source_id="2" start_line="86" end_line="86" start_column="17" end_column="42" covered="yes" />
-            <range source_id="2" start_line="87" end_line="87" start_column="17" end_column="51" covered="yes" />
-            <range source_id="2" start_line="88" end_line="88" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="89" end_line="89" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="81" end_line="81" start_column="17" end_column="67" covered="no" />
+            <range source_id="2" start_line="82" end_line="82" start_column="17" end_column="62" covered="no" />
+            <range source_id="2" start_line="84" end_line="84" start_column="17" end_column="70" covered="no" />
+            <range source_id="2" start_line="85" end_line="85" start_column="17" end_column="79" covered="no" />
+            <range source_id="2" start_line="86" end_line="86" start_column="17" end_column="42" covered="no" />
+            <range source_id="2" start_line="87" end_line="87" start_column="17" end_column="51" covered="no" />
+            <range source_id="2" start_line="88" end_line="88" start_column="13" end_column="14" covered="no" />
+            <range source_id="2" start_line="89" end_line="89" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="26144" token="0x6000071" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPacientes_ReturnsEmptyList_WhenNoPatientsExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+        <function id="26336" token="0x6000071" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPacientes_ReturnsEmptyList_WhenNoPatientsExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="37" end_line="37" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="38" end_line="38" start_column="13" end_column="40" covered="yes" />
@@ -403,13 +403,13 @@
             <range source_id="2" start_line="48" end_line="48" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="26684" token="0x6000074" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPacientes_ReturnsPatientList_WhenPatientsExist&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="26" blocks_not_covered="0" lines_covered="13" lines_partially_covered="0" lines_not_covered="0">
+        <function id="26876" token="0x6000074" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;GetPacientes_ReturnsPatientList_WhenPatientsExist&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="27" blocks_not_covered="0" lines_covered="13" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="52" end_line="52" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="53" end_line="53" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="54" end_line="54" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="55" end_line="55" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="56" end_line="56" start_column="17" end_column="137" covered="yes" />
+            <range source_id="2" start_line="56" end_line="56" start_column="17" end_column="142" covered="yes" />
             <range source_id="2" start_line="57" end_line="57" start_column="17" end_column="50" covered="yes" />
             <range source_id="2" start_line="59" end_line="59" start_column="17" end_column="67" covered="yes" />
             <range source_id="2" start_line="60" end_line="60" start_column="17" end_column="62" covered="yes" />
@@ -420,7 +420,7 @@
             <range source_id="2" start_line="66" end_line="66" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="27424" token="0x6000077" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
+        <function id="27624" token="0x6000077" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="25" end_line="25" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="26" end_line="26" start_column="20" end_column="69" covered="yes" />
@@ -432,13 +432,13 @@
             <range source_id="2" start_line="32" end_line="32" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="27772" token="0x600007a" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsBadRequest_WhenBirthdateIsInFuture&gt;d__12" block_coverage="100.00" line_coverage="100.00" blocks_covered="29" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+        <function id="27972" token="0x600007a" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsBadRequest_WhenBirthdateIsInFuture&gt;d__12" block_coverage="100.00" line_coverage="100.00" blocks_covered="30" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="193" end_line="193" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="194" end_line="194" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="195" end_line="195" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="196" end_line="196" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="197" end_line="197" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="197" end_line="197" start_column="17" end_column="137" covered="yes" />
             <range source_id="2" start_line="198" end_line="198" start_column="17" end_column="49" covered="yes" />
             <range source_id="2" start_line="199" end_line="199" start_column="17" end_column="50" covered="yes" />
             <range source_id="2" start_line="201" end_line="201" start_column="17" end_column="67" covered="yes" />
@@ -450,13 +450,13 @@
             <range source_id="2" start_line="209" end_line="209" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="28556" token="0x600007d" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsBadRequest_WhenLastNameIsEmpty&gt;d__13" block_coverage="91.67" line_coverage="84.62" blocks_covered="22" blocks_not_covered="2" lines_covered="11" lines_partially_covered="0" lines_not_covered="2">
+        <function id="28764" token="0x600007d" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsBadRequest_WhenLastNameIsEmpty&gt;d__13" block_coverage="92.00" line_coverage="84.62" blocks_covered="23" blocks_not_covered="2" lines_covered="11" lines_partially_covered="0" lines_not_covered="2">
           <ranges>
             <range source_id="2" start_line="213" end_line="213" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="214" end_line="214" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="215" end_line="215" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="216" end_line="216" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="217" end_line="217" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="217" end_line="217" start_column="17" end_column="137" covered="yes" />
             <range source_id="2" start_line="218" end_line="218" start_column="17" end_column="49" covered="yes" />
             <range source_id="2" start_line="219" end_line="219" start_column="17" end_column="50" covered="yes" />
             <range source_id="2" start_line="221" end_line="221" start_column="17" end_column="67" covered="yes" />
@@ -467,14 +467,14 @@
             <range source_id="2" start_line="228" end_line="228" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="29284" token="0x6000080" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsNotFound_WhenPatientDoesNotExist&gt;d__11" block_coverage="100.00" line_coverage="100.00" blocks_covered="21" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+        <function id="29500" token="0x6000080" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsNotFound_WhenPatientDoesNotExist&gt;d__11" block_coverage="100.00" line_coverage="100.00" blocks_covered="21" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="177" end_line="177" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="178" end_line="178" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="179" end_line="179" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="180" end_line="180" start_column="13" end_column="14" covered="yes" />
             <range source_id="2" start_line="181" end_line="181" start_column="17" end_column="67" covered="yes" />
-            <range source_id="2" start_line="182" end_line="182" start_column="17" end_column="137" covered="yes" />
+            <range source_id="2" start_line="182" end_line="182" start_column="17" end_column="138" covered="yes" />
             <range source_id="2" start_line="184" end_line="184" start_column="17" end_column="72" covered="yes" />
             <range source_id="2" start_line="186" end_line="186" start_column="17" end_column="82" covered="yes" />
             <range source_id="2" start_line="187" end_line="187" start_column="17" end_column="74" covered="yes" />
@@ -482,13 +482,13 @@
             <range source_id="2" start_line="189" end_line="189" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="29888" token="0x6000083" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsOk_WhenPatientIsUpdated&gt;d__14" block_coverage="100.00" line_coverage="100.00" blocks_covered="28" blocks_not_covered="0" lines_covered="15" lines_partially_covered="0" lines_not_covered="0">
+        <function id="30104" token="0x6000083" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="PacientesControllerTest.&lt;UpdatePaciente_ReturnsOk_WhenPatientIsUpdated&gt;d__14" block_coverage="100.00" line_coverage="100.00" blocks_covered="29" blocks_not_covered="0" lines_covered="15" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="2" start_line="232" end_line="232" start_column="9" end_column="10" covered="yes" />
             <range source_id="2" start_line="233" end_line="233" start_column="13" end_column="40" covered="yes" />
             <range source_id="2" start_line="234" end_line="234" start_column="20" end_column="69" covered="yes" />
             <range source_id="2" start_line="235" end_line="235" start_column="13" end_column="14" covered="yes" />
-            <range source_id="2" start_line="236" end_line="236" start_column="17" end_column="129" covered="yes" />
+            <range source_id="2" start_line="236" end_line="236" start_column="17" end_column="137" covered="yes" />
             <range source_id="2" start_line="237" end_line="237" start_column="17" end_column="49" covered="yes" />
             <range source_id="2" start_line="238" end_line="238" start_column="17" end_column="50" covered="yes" />
             <range source_id="2" start_line="240" end_line="240" start_column="17" end_column="67" covered="yes" />
@@ -501,129 +501,129 @@
             <range source_id="2" start_line="249" end_line="249" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="30680" token="0x6000086" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;CreateProcedimiento_ReturnsBadRequest_WhenAppointmentDoesNotExist&gt;d__7" block_coverage="100.00" line_coverage="100.00" blocks_covered="21" blocks_not_covered="0" lines_covered="16" lines_partially_covered="0" lines_not_covered="0">
+        <function id="30904" token="0x6000086" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;CreateProcedimiento_ReturnsBadRequest_WhenAppointmentDoesNotExist&gt;d__7" block_coverage="100.00" line_coverage="100.00" blocks_covered="22" blocks_not_covered="0" lines_covered="17" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="3" start_line="121" end_line="121" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="122" end_line="122" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="123" end_line="123" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="124" end_line="124" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="125" end_line="125" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="126" end_line="131" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="133" end_line="133" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="135" end_line="135" start_column="17" end_column="86" covered="yes" />
-            <range source_id="3" start_line="136" end_line="136" start_column="17" end_column="75" covered="yes" />
-            <range source_id="3" start_line="137" end_line="137" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="138" end_line="138" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="123" end_line="123" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="124" end_line="124" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="125" end_line="125" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="126" end_line="126" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="127" end_line="127" start_column="17" end_column="72" covered="yes" />
+            <range source_id="3" start_line="128" end_line="134" start_column="17" end_column="19" covered="yes" />
+            <range source_id="3" start_line="136" end_line="136" start_column="17" end_column="82" covered="yes" />
+            <range source_id="3" start_line="138" end_line="138" start_column="17" end_column="86" covered="yes" />
+            <range source_id="3" start_line="139" end_line="139" start_column="17" end_column="75" covered="yes" />
+            <range source_id="3" start_line="140" end_line="140" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="141" end_line="141" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="31276" token="0x6000089" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;CreateProcedimiento_ReturnsBadRequest_WhenCostIsNegative&gt;d__8" block_coverage="100.00" line_coverage="100.00" blocks_covered="28" blocks_not_covered="0" lines_covered="19" lines_partially_covered="0" lines_not_covered="0">
+        <function id="31508" token="0x6000089" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;CreateProcedimiento_ReturnsBadRequest_WhenCostIsNegative&gt;d__8" block_coverage="40.00" line_coverage="35.00" blocks_covered="12" blocks_not_covered="18" lines_covered="7" lines_partially_covered="0" lines_not_covered="13">
           <ranges>
-            <range source_id="3" start_line="142" end_line="142" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="143" end_line="143" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="144" end_line="144" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="145" end_line="145" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="146" end_line="146" start_column="17" end_column="39" covered="yes" />
-            <range source_id="3" start_line="147" end_line="147" start_column="17" end_column="41" covered="yes" />
-            <range source_id="3" start_line="148" end_line="148" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="150" end_line="150" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="151" end_line="156" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="158" end_line="158" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="160" end_line="160" start_column="17" end_column="86" covered="yes" />
-            <range source_id="3" start_line="161" end_line="161" start_column="17" end_column="88" covered="yes" />
-            <range source_id="3" start_line="162" end_line="162" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="163" end_line="163" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="145" end_line="145" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="146" end_line="146" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="147" end_line="147" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="148" end_line="148" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="149" end_line="149" start_column="17" end_column="48" covered="yes" />
+            <range source_id="3" start_line="150" end_line="150" start_column="17" end_column="41" covered="yes" />
+            <range source_id="3" start_line="151" end_line="151" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="153" end_line="153" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="154" end_line="160" start_column="17" end_column="19" covered="no" />
+            <range source_id="3" start_line="162" end_line="162" start_column="17" end_column="82" covered="no" />
+            <range source_id="3" start_line="164" end_line="164" start_column="17" end_column="86" covered="no" />
+            <range source_id="3" start_line="165" end_line="165" start_column="17" end_column="88" covered="no" />
+            <range source_id="3" start_line="166" end_line="166" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="167" end_line="167" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="32040" token="0x600008c" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;CreateProcedimiento_ReturnsOk_WhenProcedureIsValid&gt;d__9" block_coverage="100.00" line_coverage="100.00" blocks_covered="34" blocks_not_covered="0" lines_covered="21" lines_partially_covered="0" lines_not_covered="0">
+        <function id="32288" token="0x600008c" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;CreateProcedimiento_ReturnsOk_WhenProcedureIsValid&gt;d__9" block_coverage="33.33" line_coverage="31.82" blocks_covered="12" blocks_not_covered="24" lines_covered="7" lines_partially_covered="0" lines_not_covered="15">
           <ranges>
-            <range source_id="3" start_line="167" end_line="167" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="168" end_line="168" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="169" end_line="169" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="170" end_line="170" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="171" end_line="171" start_column="17" end_column="39" covered="yes" />
-            <range source_id="3" start_line="172" end_line="172" start_column="17" end_column="41" covered="yes" />
-            <range source_id="3" start_line="173" end_line="173" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="175" end_line="175" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="176" end_line="181" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="183" end_line="183" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="185" end_line="185" start_column="17" end_column="70" covered="yes" />
-            <range source_id="3" start_line="186" end_line="186" start_column="17" end_column="88" covered="yes" />
-            <range source_id="3" start_line="187" end_line="187" start_column="17" end_column="85" covered="yes" />
-            <range source_id="3" start_line="188" end_line="188" start_column="17" end_column="62" covered="yes" />
-            <range source_id="3" start_line="189" end_line="189" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="190" end_line="190" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="171" end_line="171" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="172" end_line="172" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="173" end_line="173" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="174" end_line="174" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="175" end_line="175" start_column="17" end_column="48" covered="yes" />
+            <range source_id="3" start_line="176" end_line="176" start_column="17" end_column="41" covered="yes" />
+            <range source_id="3" start_line="177" end_line="177" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="179" end_line="179" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="180" end_line="186" start_column="17" end_column="19" covered="no" />
+            <range source_id="3" start_line="188" end_line="188" start_column="17" end_column="82" covered="no" />
+            <range source_id="3" start_line="190" end_line="190" start_column="17" end_column="70" covered="no" />
+            <range source_id="3" start_line="191" end_line="191" start_column="17" end_column="88" covered="no" />
+            <range source_id="3" start_line="192" end_line="192" start_column="17" end_column="85" covered="no" />
+            <range source_id="3" start_line="193" end_line="193" start_column="17" end_column="62" covered="no" />
+            <range source_id="3" start_line="194" end_line="194" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="195" end_line="195" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="32864" token="0x600008f" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;DeleteProcedimiento_ReturnsNotFound_WhenProcedureDoesNotExist&gt;d__14" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+        <function id="33128" token="0x600008f" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;DeleteProcedimiento_ReturnsNotFound_WhenProcedureDoesNotExist&gt;d__14" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="3" start_line="300" end_line="300" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="301" end_line="301" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="302" end_line="302" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="303" end_line="303" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="304" end_line="304" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="305" end_line="305" start_column="17" end_column="70" covered="yes" />
-            <range source_id="3" start_line="307" end_line="307" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="308" end_line="308" start_column="17" end_column="79" covered="yes" />
-            <range source_id="3" start_line="309" end_line="309" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="310" end_line="310" start_column="9" end_column="10" covered="yes" />
-          </ranges>
-        </function>
-        <function id="33384" token="0x6000092" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;DeleteProcedimiento_ReturnsOk_WhenProcedureIsDeleted&gt;d__15" block_coverage="100.00" line_coverage="100.00" blocks_covered="34" blocks_not_covered="0" lines_covered="21" lines_partially_covered="0" lines_not_covered="0">
-          <ranges>
-            <range source_id="3" start_line="314" end_line="314" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="315" end_line="315" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="316" end_line="316" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="308" end_line="308" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="309" end_line="309" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="310" end_line="310" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="311" end_line="311" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="312" end_line="312" start_column="17" end_column="72" covered="yes" />
+            <range source_id="3" start_line="313" end_line="313" start_column="17" end_column="70" covered="yes" />
+            <range source_id="3" start_line="315" end_line="315" start_column="17" end_column="82" covered="yes" />
+            <range source_id="3" start_line="316" end_line="316" start_column="17" end_column="79" covered="yes" />
             <range source_id="3" start_line="317" end_line="317" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="318" end_line="318" start_column="17" end_column="39" covered="yes" />
-            <range source_id="3" start_line="319" end_line="319" start_column="17" end_column="41" covered="yes" />
-            <range source_id="3" start_line="320" end_line="325" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="326" end_line="326" start_column="17" end_column="59" covered="yes" />
-            <range source_id="3" start_line="327" end_line="327" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="329" end_line="329" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="330" end_line="330" start_column="17" end_column="85" covered="yes" />
-            <range source_id="3" start_line="332" end_line="332" start_column="17" end_column="70" covered="yes" />
-            <range source_id="3" start_line="333" end_line="333" start_column="17" end_column="91" covered="yes" />
-            <range source_id="3" start_line="334" end_line="334" start_column="17" end_column="75" covered="yes" />
-            <range source_id="3" start_line="335" end_line="335" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="336" end_line="336" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="318" end_line="318" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="34216" token="0x6000095" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimiento_ReturnsNotFound_WhenProcedureDoesNotExist&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+        <function id="33648" token="0x6000092" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;DeleteProcedimiento_ReturnsOk_WhenProcedureIsDeleted&gt;d__15" block_coverage="63.89" line_coverage="68.18" blocks_covered="23" blocks_not_covered="13" lines_covered="15" lines_partially_covered="0" lines_not_covered="7">
           <ranges>
-            <range source_id="3" start_line="80" end_line="80" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="81" end_line="81" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="82" end_line="82" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="83" end_line="83" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="84" end_line="84" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="85" end_line="85" start_column="17" end_column="67" covered="yes" />
-            <range source_id="3" start_line="87" end_line="87" start_column="17" end_column="82" covered="yes" />
+            <range source_id="3" start_line="322" end_line="322" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="323" end_line="323" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="324" end_line="324" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="325" end_line="325" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="326" end_line="326" start_column="17" end_column="48" covered="yes" />
+            <range source_id="3" start_line="327" end_line="327" start_column="17" end_column="41" covered="yes" />
+            <range source_id="3" start_line="328" end_line="334" start_column="17" end_column="19" covered="yes" />
+            <range source_id="3" start_line="335" end_line="335" start_column="17" end_column="59" covered="yes" />
+            <range source_id="3" start_line="336" end_line="336" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="338" end_line="338" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="339" end_line="339" start_column="17" end_column="85" covered="no" />
+            <range source_id="3" start_line="341" end_line="341" start_column="17" end_column="70" covered="no" />
+            <range source_id="3" start_line="342" end_line="342" start_column="17" end_column="91" covered="no" />
+            <range source_id="3" start_line="343" end_line="343" start_column="17" end_column="75" covered="no" />
+            <range source_id="3" start_line="344" end_line="344" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="345" end_line="345" start_column="9" end_column="10" covered="no" />
+          </ranges>
+        </function>
+        <function id="34496" token="0x6000095" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimiento_ReturnsNotFound_WhenProcedureDoesNotExist&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="81" end_line="81" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="82" end_line="82" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="83" end_line="83" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="84" end_line="84" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="85" end_line="85" start_column="17" end_column="72" covered="yes" />
+            <range source_id="3" start_line="86" end_line="86" start_column="17" end_column="67" covered="yes" />
             <range source_id="3" start_line="88" end_line="88" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="89" end_line="89" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="90" end_line="90" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="89" end_line="89" start_column="17" end_column="82" covered="yes" />
+            <range source_id="3" start_line="90" end_line="90" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="91" end_line="91" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="34736" token="0x6000098" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimiento_ReturnsOk_WhenProcedureExists&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="36" blocks_not_covered="0" lines_covered="22" lines_partially_covered="0" lines_not_covered="0">
+        <function id="35016" token="0x6000098" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimiento_ReturnsOk_WhenProcedureExists&gt;d__6" block_coverage="60.53" line_coverage="65.22" blocks_covered="23" blocks_not_covered="15" lines_covered="15" lines_partially_covered="0" lines_not_covered="8">
           <ranges>
-            <range source_id="3" start_line="94" end_line="94" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="95" end_line="95" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="96" end_line="96" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="97" end_line="97" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="98" end_line="98" start_column="17" end_column="39" covered="yes" />
-            <range source_id="3" start_line="99" end_line="99" start_column="17" end_column="41" covered="yes" />
-            <range source_id="3" start_line="100" end_line="105" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="106" end_line="106" start_column="17" end_column="59" covered="yes" />
-            <range source_id="3" start_line="107" end_line="107" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="109" end_line="109" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="110" end_line="110" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="112" end_line="112" start_column="17" end_column="70" covered="yes" />
-            <range source_id="3" start_line="113" end_line="113" start_column="17" end_column="91" covered="yes" />
-            <range source_id="3" start_line="114" end_line="114" start_column="17" end_column="75" covered="yes" />
-            <range source_id="3" start_line="115" end_line="115" start_column="17" end_column="88" covered="yes" />
-            <range source_id="3" start_line="116" end_line="116" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="117" end_line="117" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="95" end_line="95" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="96" end_line="96" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="97" end_line="97" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="98" end_line="98" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="99" end_line="99" start_column="17" end_column="48" covered="yes" />
+            <range source_id="3" start_line="100" end_line="100" start_column="17" end_column="41" covered="yes" />
+            <range source_id="3" start_line="101" end_line="107" start_column="17" end_column="19" covered="yes" />
+            <range source_id="3" start_line="108" end_line="108" start_column="17" end_column="59" covered="yes" />
+            <range source_id="3" start_line="109" end_line="109" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="111" end_line="111" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="112" end_line="112" start_column="17" end_column="82" covered="no" />
+            <range source_id="3" start_line="114" end_line="114" start_column="17" end_column="70" covered="no" />
+            <range source_id="3" start_line="115" end_line="115" start_column="17" end_column="91" covered="no" />
+            <range source_id="3" start_line="116" end_line="116" start_column="17" end_column="75" covered="no" />
+            <range source_id="3" start_line="117" end_line="117" start_column="17" end_column="88" covered="no" />
+            <range source_id="3" start_line="118" end_line="118" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="119" end_line="119" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="35588" token="0x600009b" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimientos_ReturnsEmptyList_WhenNoProceduresExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+        <function id="35884" token="0x600009b" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimientos_ReturnsEmptyList_WhenNoProceduresExist&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="3" start_line="36" end_line="36" start_column="9" end_column="10" covered="yes" />
             <range source_id="3" start_line="37" end_line="37" start_column="13" end_column="40" covered="yes" />
@@ -638,29 +638,29 @@
             <range source_id="3" start_line="47" end_line="47" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="36128" token="0x600009e" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimientos_ReturnsProceduresList_WhenProceduresExist&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="37" blocks_not_covered="0" lines_covered="23" lines_partially_covered="0" lines_not_covered="0">
+        <function id="36424" token="0x600009e" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;GetProcedimientos_ReturnsProceduresList_WhenProceduresExist&gt;d__4" block_coverage="30.77" line_coverage="29.17" blocks_covered="12" blocks_not_covered="27" lines_covered="7" lines_partially_covered="0" lines_not_covered="17">
           <ranges>
             <range source_id="3" start_line="51" end_line="51" start_column="9" end_column="10" covered="yes" />
             <range source_id="3" start_line="52" end_line="52" start_column="13" end_column="40" covered="yes" />
             <range source_id="3" start_line="53" end_line="53" start_column="20" end_column="69" covered="yes" />
             <range source_id="3" start_line="54" end_line="54" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="55" end_line="55" start_column="17" end_column="39" covered="yes" />
+            <range source_id="3" start_line="55" end_line="55" start_column="17" end_column="48" covered="yes" />
             <range source_id="3" start_line="56" end_line="56" start_column="17" end_column="41" covered="yes" />
             <range source_id="3" start_line="57" end_line="57" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="59" end_line="64" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="65" end_line="65" start_column="17" end_column="59" covered="yes" />
-            <range source_id="3" start_line="66" end_line="66" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="68" end_line="68" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="69" end_line="69" start_column="17" end_column="67" covered="yes" />
-            <range source_id="3" start_line="71" end_line="71" start_column="17" end_column="70" covered="yes" />
-            <range source_id="3" start_line="72" end_line="72" start_column="17" end_column="89" covered="yes" />
-            <range source_id="3" start_line="73" end_line="73" start_column="17" end_column="47" covered="yes" />
-            <range source_id="3" start_line="74" end_line="74" start_column="17" end_column="83" covered="yes" />
-            <range source_id="3" start_line="75" end_line="75" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="76" end_line="76" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="59" end_line="65" start_column="17" end_column="19" covered="no" />
+            <range source_id="3" start_line="66" end_line="66" start_column="17" end_column="59" covered="no" />
+            <range source_id="3" start_line="67" end_line="67" start_column="17" end_column="50" covered="no" />
+            <range source_id="3" start_line="69" end_line="69" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="70" end_line="70" start_column="17" end_column="67" covered="no" />
+            <range source_id="3" start_line="72" end_line="72" start_column="17" end_column="70" covered="no" />
+            <range source_id="3" start_line="73" end_line="73" start_column="17" end_column="89" covered="no" />
+            <range source_id="3" start_line="74" end_line="74" start_column="17" end_column="47" covered="no" />
+            <range source_id="3" start_line="75" end_line="75" start_column="17" end_column="83" covered="no" />
+            <range source_id="3" start_line="76" end_line="76" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="77" end_line="77" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="37088" token="0x60000a1" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
+        <function id="37400" token="0x60000a1" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;LimpiarBaseDeDatos&gt;d__2" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
             <range source_id="3" start_line="25" end_line="25" start_column="9" end_column="10" covered="yes" />
             <range source_id="3" start_line="26" end_line="26" start_column="20" end_column="69" covered="yes" />
@@ -672,96 +672,96 @@
             <range source_id="3" start_line="32" end_line="32" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="37436" token="0x60000a4" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsBadRequest_WhenAppointmentDoesNotExist&gt;d__11" block_coverage="100.00" line_coverage="100.00" blocks_covered="32" blocks_not_covered="0" lines_covered="21" lines_partially_covered="0" lines_not_covered="0">
+        <function id="37748" token="0x60000a4" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsBadRequest_WhenAppointmentDoesNotExist&gt;d__11" block_coverage="67.65" line_coverage="68.18" blocks_covered="23" blocks_not_covered="11" lines_covered="15" lines_partially_covered="0" lines_not_covered="7">
           <ranges>
-            <range source_id="3" start_line="216" end_line="216" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="217" end_line="217" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="218" end_line="218" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="219" end_line="219" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="220" end_line="220" start_column="17" end_column="39" covered="yes" />
-            <range source_id="3" start_line="221" end_line="221" start_column="17" end_column="41" covered="yes" />
-            <range source_id="3" start_line="222" end_line="227" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="228" end_line="228" start_column="17" end_column="59" covered="yes" />
-            <range source_id="3" start_line="229" end_line="229" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="231" end_line="231" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="232" end_line="232" start_column="17" end_column="44" covered="yes" />
-            <range source_id="3" start_line="234" end_line="234" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="236" end_line="236" start_column="17" end_column="86" covered="yes" />
-            <range source_id="3" start_line="237" end_line="237" start_column="17" end_column="75" covered="yes" />
-            <range source_id="3" start_line="238" end_line="238" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="239" end_line="239" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="221" end_line="221" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="222" end_line="222" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="223" end_line="223" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="224" end_line="224" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="225" end_line="225" start_column="17" end_column="48" covered="yes" />
+            <range source_id="3" start_line="226" end_line="226" start_column="17" end_column="41" covered="yes" />
+            <range source_id="3" start_line="227" end_line="233" start_column="17" end_column="19" covered="yes" />
+            <range source_id="3" start_line="234" end_line="234" start_column="17" end_column="59" covered="yes" />
+            <range source_id="3" start_line="235" end_line="235" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="237" end_line="237" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="238" end_line="238" start_column="17" end_column="44" covered="no" />
+            <range source_id="3" start_line="240" end_line="240" start_column="17" end_column="82" covered="no" />
+            <range source_id="3" start_line="242" end_line="242" start_column="17" end_column="86" covered="no" />
+            <range source_id="3" start_line="243" end_line="243" start_column="17" end_column="75" covered="no" />
+            <range source_id="3" start_line="244" end_line="244" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="245" end_line="245" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="38248" token="0x60000a7" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsBadRequest_WhenCostIsNegative&gt;d__12" block_coverage="100.00" line_coverage="100.00" blocks_covered="33" blocks_not_covered="0" lines_covered="21" lines_partially_covered="0" lines_not_covered="0">
+        <function id="38576" token="0x60000a7" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsBadRequest_WhenCostIsNegative&gt;d__12" block_coverage="65.71" line_coverage="68.18" blocks_covered="23" blocks_not_covered="12" lines_covered="15" lines_partially_covered="0" lines_not_covered="7">
           <ranges>
-            <range source_id="3" start_line="243" end_line="243" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="244" end_line="244" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="245" end_line="245" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="246" end_line="246" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="247" end_line="247" start_column="17" end_column="39" covered="yes" />
-            <range source_id="3" start_line="248" end_line="248" start_column="17" end_column="41" covered="yes" />
-            <range source_id="3" start_line="249" end_line="254" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="255" end_line="255" start_column="17" end_column="59" covered="yes" />
-            <range source_id="3" start_line="256" end_line="256" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="258" end_line="258" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="259" end_line="259" start_column="17" end_column="44" covered="yes" />
-            <range source_id="3" start_line="261" end_line="261" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="263" end_line="263" start_column="17" end_column="86" covered="yes" />
-            <range source_id="3" start_line="264" end_line="264" start_column="17" end_column="88" covered="yes" />
-            <range source_id="3" start_line="265" end_line="265" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="266" end_line="266" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="249" end_line="249" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="250" end_line="250" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="251" end_line="251" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="252" end_line="252" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="253" end_line="253" start_column="17" end_column="48" covered="yes" />
+            <range source_id="3" start_line="254" end_line="254" start_column="17" end_column="41" covered="yes" />
+            <range source_id="3" start_line="255" end_line="261" start_column="17" end_column="19" covered="yes" />
+            <range source_id="3" start_line="262" end_line="262" start_column="17" end_column="59" covered="yes" />
+            <range source_id="3" start_line="263" end_line="263" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="265" end_line="265" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="266" end_line="266" start_column="17" end_column="44" covered="no" />
+            <range source_id="3" start_line="268" end_line="268" start_column="17" end_column="82" covered="no" />
+            <range source_id="3" start_line="270" end_line="270" start_column="17" end_column="86" covered="no" />
+            <range source_id="3" start_line="271" end_line="271" start_column="17" end_column="88" covered="no" />
+            <range source_id="3" start_line="272" end_line="272" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="273" end_line="273" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
-        <function id="39064" token="0x60000aa" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsNotFound_WhenProcedureDoesNotExist&gt;d__10" block_coverage="100.00" line_coverage="100.00" blocks_covered="22" blocks_not_covered="0" lines_covered="17" lines_partially_covered="0" lines_not_covered="0">
+        <function id="39408" token="0x60000aa" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsNotFound_WhenProcedureDoesNotExist&gt;d__10" block_coverage="100.00" line_coverage="100.00" blocks_covered="22" blocks_not_covered="0" lines_covered="17" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="3" start_line="194" end_line="194" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="195" end_line="195" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="196" end_line="196" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="197" end_line="197" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="198" end_line="198" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="199" end_line="205" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="207" end_line="207" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="209" end_line="209" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="210" end_line="210" start_column="17" end_column="79" covered="yes" />
-            <range source_id="3" start_line="211" end_line="211" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="212" end_line="212" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="199" end_line="199" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="200" end_line="200" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="201" end_line="201" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="202" end_line="202" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="203" end_line="203" start_column="17" end_column="72" covered="yes" />
+            <range source_id="3" start_line="204" end_line="210" start_column="17" end_column="19" covered="yes" />
+            <range source_id="3" start_line="212" end_line="212" start_column="17" end_column="82" covered="yes" />
+            <range source_id="3" start_line="214" end_line="214" start_column="17" end_column="82" covered="yes" />
+            <range source_id="3" start_line="215" end_line="215" start_column="17" end_column="79" covered="yes" />
+            <range source_id="3" start_line="216" end_line="216" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="217" end_line="217" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="39664" token="0x60000ad" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsOk_WhenProcedureIsUpdated&gt;d__13" block_coverage="100.00" line_coverage="100.00" blocks_covered="40" blocks_not_covered="0" lines_covered="24" lines_partially_covered="0" lines_not_covered="0">
+        <function id="40008" token="0x60000ad" name="MoveNext()" namespace="TestProjectGestionCitasMedicas" type_name="ProcedimientosControllerTest.&lt;UpdateProcedimiento_ReturnsOk_WhenProcedureIsUpdated&gt;d__13" block_coverage="54.76" line_coverage="60.00" blocks_covered="23" blocks_not_covered="19" lines_covered="15" lines_partially_covered="0" lines_not_covered="10">
           <ranges>
-            <range source_id="3" start_line="270" end_line="270" start_column="9" end_column="10" covered="yes" />
-            <range source_id="3" start_line="271" end_line="271" start_column="13" end_column="40" covered="yes" />
-            <range source_id="3" start_line="272" end_line="272" start_column="20" end_column="69" covered="yes" />
-            <range source_id="3" start_line="273" end_line="273" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="274" end_line="274" start_column="17" end_column="39" covered="yes" />
-            <range source_id="3" start_line="275" end_line="275" start_column="17" end_column="41" covered="yes" />
-            <range source_id="3" start_line="276" end_line="281" start_column="17" end_column="19" covered="yes" />
-            <range source_id="3" start_line="282" end_line="282" start_column="17" end_column="59" covered="yes" />
-            <range source_id="3" start_line="283" end_line="283" start_column="17" end_column="50" covered="yes" />
-            <range source_id="3" start_line="285" end_line="285" start_column="17" end_column="72" covered="yes" />
-            <range source_id="3" start_line="286" end_line="286" start_column="17" end_column="73" covered="yes" />
-            <range source_id="3" start_line="287" end_line="287" start_column="17" end_column="43" covered="yes" />
-            <range source_id="3" start_line="289" end_line="289" start_column="17" end_column="82" covered="yes" />
-            <range source_id="3" start_line="291" end_line="291" start_column="17" end_column="70" covered="yes" />
-            <range source_id="3" start_line="292" end_line="292" start_column="17" end_column="93" covered="yes" />
-            <range source_id="3" start_line="293" end_line="293" start_column="17" end_column="97" covered="yes" />
-            <range source_id="3" start_line="294" end_line="294" start_column="17" end_column="67" covered="yes" />
-            <range source_id="3" start_line="295" end_line="295" start_column="13" end_column="14" covered="yes" />
-            <range source_id="3" start_line="296" end_line="296" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="277" end_line="277" start_column="9" end_column="10" covered="yes" />
+            <range source_id="3" start_line="278" end_line="278" start_column="13" end_column="40" covered="yes" />
+            <range source_id="3" start_line="279" end_line="279" start_column="20" end_column="69" covered="yes" />
+            <range source_id="3" start_line="280" end_line="280" start_column="13" end_column="14" covered="yes" />
+            <range source_id="3" start_line="281" end_line="281" start_column="17" end_column="48" covered="yes" />
+            <range source_id="3" start_line="282" end_line="282" start_column="17" end_column="41" covered="yes" />
+            <range source_id="3" start_line="283" end_line="289" start_column="17" end_column="19" covered="yes" />
+            <range source_id="3" start_line="290" end_line="290" start_column="17" end_column="59" covered="yes" />
+            <range source_id="3" start_line="291" end_line="291" start_column="17" end_column="50" covered="yes" />
+            <range source_id="3" start_line="293" end_line="293" start_column="17" end_column="72" covered="no" />
+            <range source_id="3" start_line="294" end_line="294" start_column="17" end_column="73" covered="no" />
+            <range source_id="3" start_line="295" end_line="295" start_column="17" end_column="43" covered="no" />
+            <range source_id="3" start_line="297" end_line="297" start_column="17" end_column="82" covered="no" />
+            <range source_id="3" start_line="299" end_line="299" start_column="17" end_column="70" covered="no" />
+            <range source_id="3" start_line="300" end_line="300" start_column="17" end_column="93" covered="no" />
+            <range source_id="3" start_line="301" end_line="301" start_column="17" end_column="97" covered="no" />
+            <range source_id="3" start_line="302" end_line="302" start_column="17" end_column="67" covered="no" />
+            <range source_id="3" start_line="303" end_line="303" start_column="13" end_column="14" covered="no" />
+            <range source_id="3" start_line="304" end_line="304" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
       </functions>
       <source_files>
-        <source_file id="0" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\CitasControllerTest.cs" checksum_type="SHA256" checksum="805BA25051E0BEE2849183404DB7A075533117589EBC8FCE3B458F81FE348A2B" />
-        <source_file id="1" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\DoctoresControllerTest.cs" checksum_type="SHA256" checksum="F1399E6DF555F430B1BC1782A3DDD2B2CDF3EAEA35AF284FBE0C5D5F1CD994EA" />
-        <source_file id="2" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\PacientesControllerTest.cs" checksum_type="SHA256" checksum="162070864A558E15A6D0E209D271D519384B8F7C89A7A4C4D36CFF4A1CCF83E7" />
-        <source_file id="3" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\ProcedimientosControllerTest.cs" checksum_type="SHA256" checksum="F5FE5B4DDB15E8CFDCDF2C51073894F0DA193E5A60EB5C59AF3C81F4F3657444" />
+        <source_file id="0" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\CitasControllerTest.cs" checksum_type="SHA256" checksum="EC98470A59AC61988B5DB69866490141DA72F03431E9DD3CD6A528692ABF1D22" />
+        <source_file id="1" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\DoctoresControllerTest.cs" checksum_type="SHA256" checksum="369612DCF623384F2914E7E8890821628F49D4CBD471F923A877D3B9C91223C4" />
+        <source_file id="2" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\PacientesControllerTest.cs" checksum_type="SHA256" checksum="0625F5412BA487308B93AF8F233EF500BD9B1EAA011E24BD33886908C2E91F82" />
+        <source_file id="3" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\ProcedimientosControllerTest.cs" checksum_type="SHA256" checksum="BF1076F7B590A630E16B702AF336553840034EC41607D52677F402CCEDA0A908" />
       </source_files>
       <skipped_functions>
         <skipped_function id="8272" original_id="8272" token="0x6000001" name="Main(string[])" type_name="AutoGeneratedProgram" reason="attribute_excluded" />
       </skipped_functions>
     </module>
-    <module id="EBD02559965C3446B2AB869B4B8F814E071D77BE" name="GestionCitasMedicas.dll" path="GestionCitasMedicas.dll" block_coverage="47.02" line_coverage="21.19" blocks_covered="466" blocks_not_covered="525" lines_covered="182" lines_partially_covered="4" lines_not_covered="673">
+    <module id="12FE0EEE64378649AA89CC2EF955E9920B1B5DCB" name="GestionCitasMedicas.dll" path="GestionCitasMedicas.dll" block_coverage="38.95" line_coverage="18.04" blocks_covered="386" blocks_not_covered="605" lines_covered="155" lines_partially_covered="3" lines_not_covered="701">
       <functions>
         <function id="10276" token="0x6000021" name="&lt;Main&gt;$(string[])" type_name="Program" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="22" lines_covered="0" lines_partially_covered="0" lines_not_covered="15">
           <ranges>
@@ -831,12 +831,12 @@
         </function>
         <function id="10552" token="0x600002c" name="get_Id()" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="23" end_line="23" start_column="26" end_column="30" covered="yes" />
+            <range source_id="1" start_line="23" end_line="23" start_column="34" end_column="38" covered="yes" />
           </ranges>
         </function>
         <function id="10560" token="0x600002d" name="set_Id(int)" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="23" end_line="23" start_column="31" end_column="35" covered="yes" />
+            <range source_id="1" start_line="23" end_line="23" start_column="39" end_column="43" covered="yes" />
           </ranges>
         </function>
         <function id="10569" token="0x600002e" name="get_Nombre()" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
@@ -861,207 +861,207 @@
         </function>
         <function id="10603" token="0x6000032" name="get_FechaNacimiento()" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="27" end_line="27" start_column="44" end_column="48" covered="yes" />
+            <range source_id="1" start_line="28" end_line="28" start_column="44" end_column="48" covered="yes" />
           </ranges>
         </function>
         <function id="10611" token="0x6000033" name="set_FechaNacimiento(System.Nullable&lt;System.DateTime&gt;)" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="27" end_line="27" start_column="49" end_column="53" covered="yes" />
+            <range source_id="1" start_line="28" end_line="28" start_column="49" end_column="53" covered="yes" />
           </ranges>
         </function>
         <function id="10620" token="0x6000034" name="get_Citas()" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="30" end_line="30" start_column="42" end_column="46" covered="yes" />
+            <range source_id="1" start_line="31" end_line="31" start_column="42" end_column="46" covered="yes" />
           </ranges>
         </function>
         <function id="10628" token="0x6000035" name="set_Citas(System.Collections.Generic.ICollection&lt;GestionCitasMedicas.Cita&gt;)" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="30" end_line="30" start_column="47" end_column="51" covered="no" />
+            <range source_id="1" start_line="31" end_line="31" start_column="47" end_column="51" covered="no" />
           </ranges>
         </function>
         <function id="10637" token="0x6000036" name="Paciente()" namespace="GestionCitasMedicas" type_name="Paciente" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="30" end_line="30" start_column="56" end_column="72" covered="yes" />
+            <range source_id="1" start_line="31" end_line="31" start_column="56" end_column="72" covered="yes" />
           </ranges>
         </function>
         <function id="10657" token="0x6000037" name="get_Id()" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="35" end_line="35" start_column="26" end_column="30" covered="yes" />
+            <range source_id="1" start_line="36" end_line="36" start_column="34" end_column="38" covered="yes" />
           </ranges>
         </function>
         <function id="10665" token="0x6000038" name="set_Id(int)" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="35" end_line="35" start_column="31" end_column="35" covered="yes" />
+            <range source_id="1" start_line="36" end_line="36" start_column="39" end_column="43" covered="yes" />
           </ranges>
         </function>
         <function id="10674" token="0x6000039" name="get_Nombre()" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="36" end_line="36" start_column="33" end_column="37" covered="yes" />
+            <range source_id="1" start_line="37" end_line="37" start_column="33" end_column="37" covered="yes" />
           </ranges>
         </function>
         <function id="10682" token="0x600003a" name="set_Nombre(string)" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="36" end_line="36" start_column="38" end_column="42" covered="yes" />
+            <range source_id="1" start_line="37" end_line="37" start_column="38" end_column="42" covered="yes" />
           </ranges>
         </function>
         <function id="10691" token="0x600003b" name="get_Especialidad()" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="37" end_line="37" start_column="39" end_column="43" covered="yes" />
+            <range source_id="1" start_line="38" end_line="38" start_column="39" end_column="43" covered="yes" />
           </ranges>
         </function>
         <function id="10699" token="0x600003c" name="set_Especialidad(string)" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="37" end_line="37" start_column="44" end_column="48" covered="yes" />
+            <range source_id="1" start_line="38" end_line="38" start_column="44" end_column="48" covered="yes" />
           </ranges>
         </function>
-        <function id="10708" token="0x600003d" name="get_Citas()" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+        <function id="10708" token="0x600003d" name="get_Citas()" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="40" end_line="40" start_column="42" end_column="46" covered="yes" />
+            <range source_id="1" start_line="41" end_line="41" start_column="42" end_column="46" covered="no" />
           </ranges>
         </function>
         <function id="10716" token="0x600003e" name="set_Citas(System.Collections.Generic.ICollection&lt;GestionCitasMedicas.Cita&gt;)" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="40" end_line="40" start_column="47" end_column="51" covered="no" />
+            <range source_id="1" start_line="41" end_line="41" start_column="47" end_column="51" covered="no" />
           </ranges>
         </function>
         <function id="10725" token="0x600003f" name="Doctor()" namespace="GestionCitasMedicas" type_name="Doctor" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="40" end_line="40" start_column="56" end_column="72" covered="yes" />
+            <range source_id="1" start_line="41" end_line="41" start_column="56" end_column="72" covered="yes" />
           </ranges>
         </function>
         <function id="10745" token="0x6000040" name="get_Id()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="45" end_line="45" start_column="26" end_column="30" covered="yes" />
+            <range source_id="1" start_line="46" end_line="46" start_column="34" end_column="38" covered="yes" />
           </ranges>
         </function>
-        <function id="10753" token="0x6000041" name="set_Id(int)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
+        <function id="10753" token="0x6000041" name="set_Id(int)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="45" end_line="45" start_column="31" end_column="35" covered="no" />
+            <range source_id="1" start_line="46" end_line="46" start_column="39" end_column="43" covered="yes" />
           </ranges>
         </function>
         <function id="10762" token="0x6000042" name="get_Fecha()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="48" end_line="48" start_column="34" end_column="38" covered="no" />
+            <range source_id="1" start_line="49" end_line="49" start_column="34" end_column="38" covered="no" />
           </ranges>
         </function>
         <function id="10770" token="0x6000043" name="set_Fecha(System.Nullable&lt;System.DateTime&gt;)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="48" end_line="48" start_column="39" end_column="43" covered="yes" />
+            <range source_id="1" start_line="49" end_line="49" start_column="39" end_column="43" covered="yes" />
           </ranges>
         </function>
         <function id="10779" token="0x6000044" name="get_Descripcion()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="50" end_line="50" start_column="38" end_column="42" covered="no" />
+            <range source_id="1" start_line="51" end_line="51" start_column="38" end_column="42" covered="no" />
           </ranges>
         </function>
         <function id="10787" token="0x6000045" name="set_Descripcion(string)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="50" end_line="50" start_column="43" end_column="47" covered="yes" />
+            <range source_id="1" start_line="51" end_line="51" start_column="43" end_column="47" covered="yes" />
           </ranges>
         </function>
         <function id="10796" token="0x6000046" name="get_PacienteId()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="53" end_line="53" start_column="34" end_column="38" covered="yes" />
+            <range source_id="1" start_line="54" end_line="54" start_column="34" end_column="38" covered="yes" />
           </ranges>
         </function>
         <function id="10804" token="0x6000047" name="set_PacienteId(System.Nullable&lt;int&gt;)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="53" end_line="53" start_column="39" end_column="43" covered="yes" />
+            <range source_id="1" start_line="54" end_line="54" start_column="39" end_column="43" covered="yes" />
           </ranges>
         </function>
         <function id="10813" token="0x6000048" name="get_DoctorId()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="56" end_line="56" start_column="32" end_column="36" covered="yes" />
+            <range source_id="1" start_line="57" end_line="57" start_column="32" end_column="36" covered="yes" />
           </ranges>
         </function>
         <function id="10821" token="0x6000049" name="set_DoctorId(System.Nullable&lt;int&gt;)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="56" end_line="56" start_column="37" end_column="41" covered="yes" />
+            <range source_id="1" start_line="57" end_line="57" start_column="37" end_column="41" covered="yes" />
           </ranges>
         </function>
         <function id="10830" token="0x600004a" name="get_Paciente()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="59" end_line="59" start_column="37" end_column="41" covered="no" />
+            <range source_id="1" start_line="60" end_line="60" start_column="37" end_column="41" covered="no" />
           </ranges>
         </function>
         <function id="10838" token="0x600004b" name="set_Paciente(GestionCitasMedicas.Paciente)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="59" end_line="59" start_column="42" end_column="46" covered="no" />
+            <range source_id="1" start_line="60" end_line="60" start_column="42" end_column="46" covered="no" />
           </ranges>
         </function>
         <function id="10847" token="0x600004c" name="get_Doctor()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="62" end_line="62" start_column="33" end_column="37" covered="no" />
+            <range source_id="1" start_line="63" end_line="63" start_column="33" end_column="37" covered="no" />
           </ranges>
         </function>
         <function id="10855" token="0x600004d" name="set_Doctor(GestionCitasMedicas.Doctor)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="62" end_line="62" start_column="38" end_column="42" covered="no" />
+            <range source_id="1" start_line="63" end_line="63" start_column="38" end_column="42" covered="no" />
           </ranges>
         </function>
         <function id="10864" token="0x600004e" name="get_Procedimientos()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="64" end_line="64" start_column="60" end_column="64" covered="yes" />
+            <range source_id="1" start_line="65" end_line="65" start_column="60" end_column="64" covered="yes" />
           </ranges>
         </function>
         <function id="10872" token="0x600004f" name="set_Procedimientos(System.Collections.Generic.ICollection&lt;GestionCitasMedicas.Procedimiento&gt;)" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="64" end_line="64" start_column="65" end_column="69" covered="no" />
+            <range source_id="1" start_line="65" end_line="65" start_column="65" end_column="69" covered="no" />
           </ranges>
         </function>
         <function id="10881" token="0x6000050" name="Cita()" namespace="GestionCitasMedicas" type_name="Cita" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="64" end_line="64" start_column="74" end_column="99" covered="yes" />
+            <range source_id="1" start_line="65" end_line="65" start_column="74" end_column="99" covered="yes" />
           </ranges>
         </function>
         <function id="10901" token="0x6000051" name="get_Id()" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="69" end_line="69" start_column="26" end_column="30" covered="yes" />
+            <range source_id="1" start_line="70" end_line="70" start_column="34" end_column="38" covered="yes" />
           </ranges>
         </function>
         <function id="10909" token="0x6000052" name="set_Id(int)" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="69" end_line="69" start_column="31" end_column="35" covered="yes" />
+            <range source_id="1" start_line="70" end_line="70" start_column="39" end_column="43" covered="yes" />
           </ranges>
         </function>
-        <function id="10918" token="0x6000053" name="get_Descripcion()" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+        <function id="10918" token="0x6000053" name="get_Descripcion()" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="70" end_line="70" start_column="38" end_column="42" covered="yes" />
+            <range source_id="1" start_line="71" end_line="71" start_column="38" end_column="42" covered="no" />
           </ranges>
         </function>
         <function id="10926" token="0x6000054" name="set_Descripcion(string)" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="70" end_line="70" start_column="43" end_column="47" covered="yes" />
+            <range source_id="1" start_line="71" end_line="71" start_column="43" end_column="47" covered="yes" />
           </ranges>
         </function>
-        <function id="10935" token="0x6000055" name="get_Costo()" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+        <function id="10935" token="0x6000055" name="get_Costo()" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="73" end_line="73" start_column="33" end_column="37" covered="yes" />
+            <range source_id="1" start_line="74" end_line="74" start_column="33" end_column="37" covered="no" />
           </ranges>
         </function>
         <function id="10943" token="0x6000056" name="set_Costo(System.Nullable&lt;System.Decimal&gt;)" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="73" end_line="73" start_column="38" end_column="42" covered="yes" />
+            <range source_id="1" start_line="74" end_line="74" start_column="38" end_column="42" covered="yes" />
           </ranges>
         </function>
         <function id="10952" token="0x6000057" name="get_CitaId()" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="76" end_line="76" start_column="30" end_column="34" covered="yes" />
+            <range source_id="1" start_line="77" end_line="77" start_column="30" end_column="34" covered="yes" />
           </ranges>
         </function>
         <function id="10960" token="0x6000058" name="set_CitaId(System.Nullable&lt;int&gt;)" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
           <ranges>
-            <range source_id="1" start_line="76" end_line="76" start_column="35" end_column="39" covered="yes" />
+            <range source_id="1" start_line="77" end_line="77" start_column="35" end_column="39" covered="yes" />
           </ranges>
         </function>
         <function id="10969" token="0x6000059" name="get_Cita()" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="79" end_line="79" start_column="29" end_column="33" covered="no" />
+            <range source_id="1" start_line="80" end_line="80" start_column="29" end_column="33" covered="no" />
           </ranges>
         </function>
         <function id="10977" token="0x600005a" name="set_Cita(GestionCitasMedicas.Cita)" namespace="GestionCitasMedicas" type_name="Procedimiento" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
-            <range source_id="1" start_line="79" end_line="79" start_column="34" end_column="38" covered="no" />
+            <range source_id="1" start_line="80" end_line="80" start_column="34" end_column="38" covered="no" />
           </ranges>
         </function>
         <function id="10995" token="0x600005c" name="get_Date()" namespace="GestionCitasMedicas" type_name="WeatherForecast" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="1">
@@ -1523,18 +1523,18 @@
             <range source_id="7" start_line="45" end_line="45" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="22564" token="0x60000c1" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="DoctoresController.&lt;DeleteDoctor&gt;d__6" block_coverage="75.00" line_coverage="60.00" blocks_covered="27" blocks_not_covered="9" lines_covered="6" lines_partially_covered="1" lines_not_covered="3">
+        <function id="22564" token="0x60000c1" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="DoctoresController.&lt;DeleteDoctor&gt;d__6" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="36" lines_covered="0" lines_partially_covered="0" lines_not_covered="10">
           <ranges>
-            <range source_id="7" start_line="61" end_line="61" start_column="9" end_column="10" covered="yes" />
-            <range source_id="7" start_line="62" end_line="63" start_column="13" end_column="55" covered="yes" />
-            <range source_id="7" start_line="64" end_line="64" start_column="13" end_column="32" covered="yes" />
+            <range source_id="7" start_line="61" end_line="61" start_column="9" end_column="10" covered="no" />
+            <range source_id="7" start_line="62" end_line="63" start_column="13" end_column="55" covered="no" />
+            <range source_id="7" start_line="64" end_line="64" start_column="13" end_column="32" covered="no" />
             <range source_id="7" start_line="64" end_line="64" start_column="33" end_column="69" covered="no" />
-            <range source_id="7" start_line="67" end_line="67" start_column="13" end_column="39" covered="yes" />
-            <range source_id="7" start_line="68" end_line="68" start_column="17" end_column="98" covered="yes" />
+            <range source_id="7" start_line="67" end_line="67" start_column="13" end_column="39" covered="no" />
+            <range source_id="7" start_line="68" end_line="68" start_column="17" end_column="98" covered="no" />
             <range source_id="7" start_line="70" end_line="70" start_column="13" end_column="48" covered="no" />
             <range source_id="7" start_line="71" end_line="71" start_column="13" end_column="49" covered="no" />
             <range source_id="7" start_line="72" end_line="72" start_column="13" end_column="31" covered="no" />
-            <range source_id="7" start_line="73" end_line="73" start_column="9" end_column="10" covered="yes" />
+            <range source_id="7" start_line="73" end_line="73" start_column="9" end_column="10" covered="no" />
           </ranges>
         </function>
         <function id="23308" token="0x60000c4" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="DoctoresController.&lt;GetDoctor&gt;d__3" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="26" lines_covered="0" lines_partially_covered="0" lines_not_covered="6">
@@ -1578,14 +1578,14 @@
             <range source_id="8" start_line="41" end_line="41" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="25064" token="0x60000d4" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="PacientesController.&lt;DeletePaciente&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="36" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+        <function id="25064" token="0x60000d4" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="PacientesController.&lt;DeletePaciente&gt;d__6" block_coverage="94.44" line_coverage="90.00" blocks_covered="34" blocks_not_covered="2" lines_covered="9" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
             <range source_id="8" start_line="60" end_line="60" start_column="9" end_column="10" covered="yes" />
             <range source_id="8" start_line="61" end_line="62" start_column="13" end_column="55" covered="yes" />
             <range source_id="8" start_line="63" end_line="63" start_column="13" end_column="34" covered="yes" />
             <range source_id="8" start_line="63" end_line="63" start_column="35" end_column="73" covered="yes" />
             <range source_id="8" start_line="66" end_line="66" start_column="13" end_column="41" covered="yes" />
-            <range source_id="8" start_line="67" end_line="67" start_column="17" end_column="100" covered="yes" />
+            <range source_id="8" start_line="67" end_line="67" start_column="17" end_column="100" covered="no" />
             <range source_id="8" start_line="70" end_line="70" start_column="13" end_column="51" covered="yes" />
             <range source_id="8" start_line="71" end_line="71" start_column="13" end_column="49" covered="yes" />
             <range source_id="8" start_line="72" end_line="72" start_column="13" end_column="33" covered="yes" />
@@ -1624,39 +1624,39 @@
             <range source_id="8" start_line="56" end_line="56" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="27288" token="0x60000e3" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;CreateProcedimiento&gt;d__4" block_coverage="100.00" line_coverage="100.00" blocks_covered="23" blocks_not_covered="0" lines_covered="9" lines_partially_covered="0" lines_not_covered="0">
+        <function id="27288" token="0x60000e3" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;CreateProcedimiento&gt;d__4" block_coverage="39.13" line_coverage="44.44" blocks_covered="9" blocks_not_covered="14" lines_covered="4" lines_partially_covered="0" lines_not_covered="5">
           <ranges>
             <range source_id="9" start_line="36" end_line="36" start_column="9" end_column="10" covered="yes" />
             <range source_id="9" start_line="37" end_line="37" start_column="13" end_column="79" covered="yes" />
             <range source_id="9" start_line="38" end_line="38" start_column="13" end_column="30" covered="yes" />
             <range source_id="9" start_line="38" end_line="38" start_column="31" end_column="70" covered="yes" />
-            <range source_id="9" start_line="40" end_line="40" start_column="13" end_column="41" covered="yes" />
-            <range source_id="9" start_line="41" end_line="41" start_column="17" end_column="69" covered="yes" />
-            <range source_id="9" start_line="43" end_line="43" start_column="13" end_column="58" covered="yes" />
-            <range source_id="9" start_line="44" end_line="44" start_column="13" end_column="49" covered="yes" />
-            <range source_id="9" start_line="45" end_line="45" start_column="13" end_column="38" covered="yes" />
+            <range source_id="9" start_line="40" end_line="40" start_column="13" end_column="41" covered="no" />
+            <range source_id="9" start_line="41" end_line="41" start_column="17" end_column="69" covered="no" />
+            <range source_id="9" start_line="43" end_line="43" start_column="13" end_column="58" covered="no" />
+            <range source_id="9" start_line="44" end_line="44" start_column="13" end_column="49" covered="no" />
+            <range source_id="9" start_line="45" end_line="45" start_column="13" end_column="38" covered="no" />
             <range source_id="9" start_line="46" end_line="46" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="27868" token="0x60000e6" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;DeleteProcedimiento&gt;d__6" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+        <function id="27868" token="0x60000e6" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;DeleteProcedimiento&gt;d__6" block_coverage="53.33" line_coverage="57.14" blocks_covered="8" blocks_not_covered="7" lines_covered="4" lines_partially_covered="0" lines_not_covered="3">
           <ranges>
             <range source_id="9" start_line="71" end_line="71" start_column="9" end_column="10" covered="yes" />
             <range source_id="9" start_line="72" end_line="72" start_column="13" end_column="79" covered="yes" />
             <range source_id="9" start_line="73" end_line="73" start_column="13" end_column="39" covered="yes" />
             <range source_id="9" start_line="73" end_line="73" start_column="40" end_column="83" covered="yes" />
-            <range source_id="9" start_line="75" end_line="75" start_column="13" end_column="61" covered="yes" />
-            <range source_id="9" start_line="76" end_line="76" start_column="13" end_column="49" covered="yes" />
-            <range source_id="9" start_line="77" end_line="77" start_column="13" end_column="38" covered="yes" />
+            <range source_id="9" start_line="75" end_line="75" start_column="13" end_column="61" covered="no" />
+            <range source_id="9" start_line="76" end_line="76" start_column="13" end_column="49" covered="no" />
+            <range source_id="9" start_line="77" end_line="77" start_column="13" end_column="38" covered="no" />
             <range source_id="9" start_line="78" end_line="78" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="28372" token="0x60000e9" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;GetProcedimiento&gt;d__3" block_coverage="100.00" line_coverage="100.00" blocks_covered="26" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+        <function id="28372" token="0x60000e9" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;GetProcedimiento&gt;d__3" block_coverage="92.31" line_coverage="85.71" blocks_covered="24" blocks_not_covered="2" lines_covered="6" lines_partially_covered="0" lines_not_covered="1">
           <ranges>
             <range source_id="9" start_line="26" end_line="26" start_column="9" end_column="10" covered="yes" />
             <range source_id="9" start_line="27" end_line="29" start_column="13" end_column="55" covered="yes" />
             <range source_id="9" start_line="30" end_line="30" start_column="13" end_column="39" covered="yes" />
             <range source_id="9" start_line="30" end_line="30" start_column="40" end_column="86" covered="yes" />
-            <range source_id="9" start_line="31" end_line="31" start_column="13" end_column="38" covered="yes" />
+            <range source_id="9" start_line="31" end_line="31" start_column="13" end_column="38" covered="no" />
             <range source_id="9" start_line="32" end_line="32" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
@@ -1667,22 +1667,22 @@
             <range source_id="9" start_line="22" end_line="22" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
-        <function id="29220" token="0x60000ef" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;UpdateProcedimiento&gt;d__5" block_coverage="100.00" line_coverage="100.00" blocks_covered="35" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+        <function id="29220" token="0x60000ef" name="MoveNext()" namespace="GestionCitasMedicas.Controllers" type_name="ProcedimientosController.&lt;UpdateProcedimiento&gt;d__5" block_coverage="25.71" line_coverage="35.71" blocks_covered="9" blocks_not_covered="26" lines_covered="5" lines_partially_covered="0" lines_not_covered="9">
           <ranges>
             <range source_id="9" start_line="50" end_line="50" start_column="9" end_column="10" covered="yes" />
             <range source_id="9" start_line="51" end_line="52" start_column="13" end_column="46" covered="yes" />
             <range source_id="9" start_line="53" end_line="53" start_column="13" end_column="48" covered="yes" />
             <range source_id="9" start_line="53" end_line="53" start_column="49" end_column="92" covered="yes" />
-            <range source_id="9" start_line="55" end_line="55" start_column="13" end_column="79" covered="yes" />
-            <range source_id="9" start_line="56" end_line="56" start_column="13" end_column="30" covered="yes" />
-            <range source_id="9" start_line="56" end_line="56" start_column="31" end_column="70" covered="yes" />
-            <range source_id="9" start_line="58" end_line="58" start_column="13" end_column="41" covered="yes" />
-            <range source_id="9" start_line="59" end_line="59" start_column="17" end_column="69" covered="yes" />
-            <range source_id="9" start_line="61" end_line="61" start_column="13" end_column="76" covered="yes" />
-            <range source_id="9" start_line="62" end_line="62" start_column="13" end_column="64" covered="yes" />
-            <range source_id="9" start_line="63" end_line="63" start_column="13" end_column="66" covered="yes" />
-            <range source_id="9" start_line="65" end_line="65" start_column="13" end_column="49" covered="yes" />
-            <range source_id="9" start_line="66" end_line="66" start_column="13" end_column="47" covered="yes" />
+            <range source_id="9" start_line="55" end_line="55" start_column="13" end_column="79" covered="no" />
+            <range source_id="9" start_line="56" end_line="56" start_column="13" end_column="30" covered="no" />
+            <range source_id="9" start_line="56" end_line="56" start_column="31" end_column="70" covered="no" />
+            <range source_id="9" start_line="58" end_line="58" start_column="13" end_column="41" covered="no" />
+            <range source_id="9" start_line="59" end_line="59" start_column="17" end_column="69" covered="no" />
+            <range source_id="9" start_line="61" end_line="61" start_column="13" end_column="76" covered="no" />
+            <range source_id="9" start_line="62" end_line="62" start_column="13" end_column="64" covered="no" />
+            <range source_id="9" start_line="63" end_line="63" start_column="13" end_column="66" covered="no" />
+            <range source_id="9" start_line="65" end_line="65" start_column="13" end_column="49" covered="no" />
+            <range source_id="9" start_line="66" end_line="66" start_column="13" end_column="47" covered="no" />
             <range source_id="9" start_line="67" end_line="67" start_column="9" end_column="10" covered="yes" />
           </ranges>
         </function>
@@ -1694,7 +1694,7 @@
       </functions>
       <source_files>
         <source_file id="0" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Program.cs" checksum_type="SHA256" checksum="843E059FD412546DD82BDDC597795E36B7AE510F90169B896BDCE90F3D9F321B" />
-        <source_file id="1" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\AppDBContext.cs" checksum_type="SHA256" checksum="096A4704B011EF1223FABC8D198CEC12A7E07A844687DE45D3A3CFFC8733529F" />
+        <source_file id="1" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\AppDBContext.cs" checksum_type="SHA256" checksum="E57E5DA56B97826B72D94428F4CABBB093479E6CB5AC0F2D1DCDAE4675D24F4A" />
         <source_file id="2" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\WeatherForecast.cs" checksum_type="SHA256" checksum="0212EBAC227A83F4E0224B022BC47B7F99DDF24D9ADD98D4BDD64B47A1226205" />
         <source_file id="3" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250121095752_InitialCitasMedicas.cs" checksum_type="SHA256" checksum="88D825AB904B56ABCD0D000FBA123B3F0941E10C07B2F6561E95F1C85CA14C01" />
         <source_file id="4" path="C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250121095752_InitialCitasMedicas.Designer.cs" checksum_type="SHA256" checksum="271F491B263D49459BAA025C523C8ED843BBE406E885C3B3E022E6A94EBF4FCC" />
@@ -1748,44 +1748,44 @@
     <skipped_module name="system.io.memorymappedfiles.dll" path="system.io.memorymappedfiles.dll" reason="no_symbols" />
     <skipped_module name="system.collections.concurrent.dll" path="system.collections.concurrent.dll" reason="no_symbols" />
     <skipped_module name="system.net.http.dll" path="system.net.http.dll" reason="no_symbols" />
-    <skipped_module name="system.net.primitives.dll" path="system.net.primitives.dll" reason="no_symbols" />
-    <skipped_module name="system.xml.xdocument.dll" path="system.xml.xdocument.dll" reason="no_symbols" />
     <skipped_module name="microsoft.build.framework.dll" path="microsoft.build.framework.dll" reason="no_symbols" />
+    <skipped_module name="system.xml.xdocument.dll" path="system.xml.xdocument.dll" reason="no_symbols" />
+    <skipped_module name="system.net.primitives.dll" path="system.net.primitives.dll" reason="no_symbols" />
     <skipped_module name="system.private.xml.linq.dll" path="system.private.xml.linq.dll" reason="no_symbols" />
-    <skipped_module name="system.net.security.dll" path="system.net.security.dll" reason="no_symbols" />
-    <skipped_module name="microsoft.dotnet.templatelocator.dll" path="microsoft.dotnet.templatelocator.dll" reason="no_symbols" />
     <skipped_module name="system.threading.thread.dll" path="system.threading.thread.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.dotnet.templatelocator.dll" path="microsoft.dotnet.templatelocator.dll" reason="no_symbols" />
     <skipped_module name="msbuild.dll" path="msbuild.dll" reason="no_symbols" />
-    <skipped_module name="system.net.requests.dll" path="system.net.requests.dll" reason="no_symbols" />
-    <skipped_module name="microsoft.deployment.dotnet.releases.dll" path="microsoft.deployment.dotnet.releases.dll" reason="no_symbols" />
+    <skipped_module name="system.net.security.dll" path="system.net.security.dll" reason="no_symbols" />
     <skipped_module name="system.xml.readerwriter.dll" path="system.xml.readerwriter.dll" reason="no_symbols" />
-    <skipped_module name="system.net.networkinformation.dll" path="system.net.networkinformation.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.deployment.dotnet.releases.dll" path="microsoft.deployment.dotnet.releases.dll" reason="no_symbols" />
     <skipped_module name="microsoft.build.dll" path="microsoft.build.dll" reason="no_symbols" />
-    <skipped_module name="system.text.json.dll" path="system.text.json.dll" reason="no_symbols" />
+    <skipped_module name="system.net.requests.dll" path="system.net.requests.dll" reason="no_symbols" />
     <skipped_module name="system.private.xml.dll" path="system.private.xml.dll" reason="no_symbols" />
+    <skipped_module name="system.text.json.dll" path="system.text.json.dll" reason="no_symbols" />
+    <skipped_module name="system.net.networkinformation.dll" path="system.net.networkinformation.dll" reason="no_symbols" />
     <skipped_module name="system.text.regularexpressions.dll" path="system.text.regularexpressions.dll" reason="no_symbols" />
-    <skipped_module name="system.runtime.loader.dll" path="system.runtime.loader.dll" reason="no_symbols" />
     <skipped_module name="system.net.nameresolution.dll" path="system.net.nameresolution.dll" reason="no_symbols" />
     <skipped_module name="system.runtime.intrinsics.dll" path="system.runtime.intrinsics.dll" reason="no_symbols" />
-    <skipped_module name="system.collections.immutable.dll" path="system.collections.immutable.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.loader.dll" path="system.runtime.loader.dll" reason="no_symbols" />
     <skipped_module name="system.io.compression.dll" path="system.io.compression.dll" reason="no_symbols" />
-    <skipped_module name="nuget.credentials.dll" path="nuget.credentials.dll" reason="no_symbols" />
+    <skipped_module name="system.collections.immutable.dll" path="system.collections.immutable.dll" reason="no_symbols" />
     <skipped_module name="system.diagnostics.fileversioninfo.dll" path="system.diagnostics.fileversioninfo.dll" reason="no_symbols" />
+    <skipped_module name="nuget.credentials.dll" path="nuget.credentials.dll" reason="no_symbols" />
     <skipped_module name="microsoft.build.resources.dll" path="microsoft.build.resources.dll" reason="no_symbols" />
     <skipped_module name="system.serviceprocess.servicecontroller.dll" path="system.serviceprocess.servicecontroller.dll" reason="no_symbols" />
     <skipped_module name="system.collections.nongeneric.dll" path="system.collections.nongeneric.dll" reason="no_symbols" />
     <skipped_module name="msbuild.resources.dll" path="msbuild.resources.dll" reason="no_symbols" />
     <skipped_module name="system.threading.tasks.dataflow.dll" path="system.threading.tasks.dataflow.dll" reason="no_symbols" />
+    <skipped_module name="system.net.sockets.dll" path="system.net.sockets.dll" reason="no_symbols" />
     <skipped_module name="system.reflection.emit.lightweight.dll" path="system.reflection.emit.lightweight.dll" reason="no_symbols" />
     <skipped_module name="system.reflection.emit.ilgeneration.dll" path="system.reflection.emit.ilgeneration.dll" reason="no_symbols" />
+    <skipped_module name="system.threading.overlapped.dll" path="system.threading.overlapped.dll" reason="no_symbols" />
+    <skipped_module name="system.threading.threadpool.dll" path="system.threading.threadpool.dll" reason="no_symbols" />
     <skipped_module name="system.reflection.primitives.dll" path="system.reflection.primitives.dll" reason="no_symbols" />
     <skipped_module name="system.security.principal.windows.dll" path="system.security.principal.windows.dll" reason="no_symbols" />
     <skipped_module name="system.security.claims.dll" path="system.security.claims.dll" reason="no_symbols" />
     <skipped_module name="system.diagnostics.tracesource.dll" path="system.diagnostics.tracesource.dll" reason="no_symbols" />
     <skipped_module name="microsoft.net.stringtools.dll" path="microsoft.net.stringtools.dll" reason="no_symbols" />
-    <skipped_module name="system.net.sockets.dll" path="system.net.sockets.dll" reason="no_symbols" />
-    <skipped_module name="system.threading.overlapped.dll" path="system.threading.overlapped.dll" reason="no_symbols" />
-    <skipped_module name="system.threading.threadpool.dll" path="system.threading.threadpool.dll" reason="no_symbols" />
     <skipped_module name="system.threading.tasks.parallel.dll" path="system.threading.tasks.parallel.dll" reason="no_symbols" />
     <skipped_module name="microsoft.build.tasks.core.dll" path="microsoft.build.tasks.core.dll" reason="no_symbols" />
     <skipped_module name="microsoft.build.utilities.core.dll" path="microsoft.build.utilities.core.dll" reason="no_symbols" />

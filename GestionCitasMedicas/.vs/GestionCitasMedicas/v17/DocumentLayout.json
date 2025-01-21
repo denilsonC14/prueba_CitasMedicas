@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\testprojectgestioncitasmedicas\\pacientescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|solutionrelative:testprojectgestioncitasmedicas\\pacientescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\testprojectgestioncitasmedicas\\procedimientoscontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|solutionrelative:testprojectgestioncitasmedicas\\procedimientoscontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\testprojectgestioncitasmedicas\\citascontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|solutionrelative:testprojectgestioncitasmedicas\\citascontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\testprojectgestioncitasmedicas\\doctorescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|solutionrelative:testprojectgestioncitasmedicas\\doctorescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\procedimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +27,20 @@
       "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\doctorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\testprojectgestioncitasmedicas\\procedimientoscontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|solutionrelative:testprojectgestioncitasmedicas\\procedimientoscontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\testprojectgestioncitasmedicas\\citascontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|solutionrelative:testprojectgestioncitasmedicas\\citascontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\testprojectgestioncitasmedicas\\pacientescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C2C69CB-313A-4826-BBAB-34899048FF37}|TestProjectGestionCitasMedicas\\TestProjectGestionCitasMedicas.csproj|solutionrelative:testprojectgestioncitasmedicas\\pacientescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|c:\\users\\carlo\\downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\gestioncitasmedicas\\gestioncitasmedicas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1937A7E1-639C-4881-AB87-616E5149B521}|GestionCitasMedicas\\GestionCitasMedicas.csproj|solutionrelative:gestioncitasmedicas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -66,76 +66,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProcedimientosControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\ProcedimientosControllerTest.cs",
               "RelativeDocumentMoniker": "TestProjectGestionCitasMedicas\\ProcedimientosControllerTest.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\ProcedimientosControllerTest.cs",
               "RelativeToolTip": "TestProjectGestionCitasMedicas\\ProcedimientosControllerTest.cs",
-              "ViewState": "AQIAANYAAAAAAAAAAAAAAOcAAAArAAAA",
+              "ViewState": "AQIAAD0BAAAAAAAAAAAAAE4BAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T10:14:33.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "CitasControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\CitasControllerTest.cs",
               "RelativeDocumentMoniker": "TestProjectGestionCitasMedicas\\CitasControllerTest.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\CitasControllerTest.cs",
               "RelativeToolTip": "TestProjectGestionCitasMedicas\\CitasControllerTest.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAuwLUAAAABAAAA",
+              "ViewState": "AQIAAK8AAAAAAAAAAADwv6sAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T10:14:05.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DoctoresControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\DoctoresControllerTest.cs",
               "RelativeDocumentMoniker": "TestProjectGestionCitasMedicas\\DoctoresControllerTest.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\DoctoresControllerTest.cs",
               "RelativeToolTip": "TestProjectGestionCitasMedicas\\DoctoresControllerTest.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAAGkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T10:13:32.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\appsettings.Development.json",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\appsettings.Development.json",
               "RelativeToolTip": "GestionCitasMedicas\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-21T07:15:08.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "PacientesControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\PacientesControllerTest.cs",
               "RelativeDocumentMoniker": "TestProjectGestionCitasMedicas\\PacientesControllerTest.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\TestProjectGestionCitasMedicas\\PacientesControllerTest.cs",
               "RelativeToolTip": "TestProjectGestionCitasMedicas\\PacientesControllerTest.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAADEBAAABAAAA",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T07:05:44.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\WeatherForecastController.cs",
@@ -143,12 +143,11 @@
               "RelativeToolTip": "GestionCitasMedicas\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T13:12:25.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T13:12:25.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\WeatherForecast.cs",
@@ -156,12 +155,11 @@
               "RelativeToolTip": "GestionCitasMedicas\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:53:43.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T12:53:43.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ProcedimientosController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\ProcedimientosController.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\ProcedimientosController.cs",
@@ -174,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CitasController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\CitasController.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\CitasController.cs",
@@ -187,20 +185,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "DoctoresController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\DoctoresController.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\DoctoresController.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\DoctoresController.cs",
               "RelativeToolTip": "GestionCitasMedicas\\Controllers\\DoctoresController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T12:54:51.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "PacientesController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Controllers\\PacientesController.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\Controllers\\PacientesController.cs",
@@ -213,13 +211,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Program.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\Program.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\Program.cs",
               "RelativeToolTip": "GestionCitasMedicas\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T12:50:27.331Z",
               "EditorCaption": ""
@@ -234,18 +232,17 @@
               "RelativeToolTip": "GestionCitasMedicas\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-20T12:49:35.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T12:49:35.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\AppDBContext.cs",
               "RelativeDocumentMoniker": "GestionCitasMedicas\\AppDBContext.cs",
               "ToolTip": "C:\\Users\\carlo\\Downloads\\sexto\\pruebas\\segundaparcial\\pruebav3\\GestionCitasMedicas\\GestionCitasMedicas\\AppDBContext.cs",
               "RelativeToolTip": "GestionCitasMedicas\\AppDBContext.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAywFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T12:23:07.342Z",
               "EditorCaption": ""
