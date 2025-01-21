@@ -1,0 +1,16 @@
+∫
+ÆC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.MvcApplicationPartsAssemblyInfo.csutf-8ß
+õC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.AssemblyInfo.csutf-8≤
+¶C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8©
+ùC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\obj\Debug\net8.0\GestionCitasMedicas.GlobalUsings.g.csutf-8Ç
+yC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\WeatherForecast.csutf-8z
+qC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Program.csutf-8ö
+éC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Migrations\AppDBContextModelSnapshot.csutf-8¨
+†C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250121095752_InitialCitasMedicas.Designer.csutf-8°
+óC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Migrations\20250121095752_InitialCitasMedicas.csutf-8ô
+èC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Controllers\WeatherForecastController.csutf-8ò
+éC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Controllers\ProcedimientosController.csutf-8ì
+âC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Controllers\PacientesController.csutf-8í
+àC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Controllers\DoctoresController.csutf-8è
+ÖC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\Controllers\CitasController.csutf-8
+vC:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\GestionCitasMedicas\AppDBContext.csutf-8

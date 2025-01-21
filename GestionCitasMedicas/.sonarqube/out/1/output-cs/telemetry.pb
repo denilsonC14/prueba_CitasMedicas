@@ -1,0 +1,1 @@
+®R—C:\Users\carlo\Downloads\sexto\pruebas\segundaparcial\pruebav3\GestionCitasMedicas\TestProjectGestionCitasMedicas\TestProjectGestionCitasMedicas.csproj¢net8.0òCSharp12

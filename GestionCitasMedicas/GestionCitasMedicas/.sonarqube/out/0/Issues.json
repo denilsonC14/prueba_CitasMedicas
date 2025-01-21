@@ -1,0 +1,491 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.10.0.0",
+        "fileVersion": "4.10.0-3.24216.12 (3af0081a)",
+        "semanticVersion": "4.10.0",
+        "language": "es-ES"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Pacientes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 32,
+                  "endLine": 15,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Doctores\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 30,
+                  "endLine": 16,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Citas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 28,
+                  "endLine": 17,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Procedimientos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declarar el elemento propiedad como que admite un valor NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/AppDBContext.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 37,
+                  "endLine": 18,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/appsettings.json",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 27,
+                  "endLine": 10,
+                  "endColumn": 168
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'SqlServer:Identity' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 37,
+                  "endLine": 19,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 37,
+                  "endLine": 33,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 37,
+                  "endLine": 48,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 37,
+                  "endLine": 76,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'nvarchar(max)' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 57,
+                  "endLine": 20,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 63,
+                  "endLine": 21,
+                  "endColumn": 78
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 57,
+                  "endLine": 34,
+                  "endColumn": 72
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 59,
+                  "endLine": 35,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 62,
+                  "endLine": 50,
+                  "endColumn": 77
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 62,
+                  "endLine": 77,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Citas' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 23,
+                  "endLine": 44,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 41,
+                  "endLine": 87,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 24,
+                  "endLine": 94,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 24,
+                  "endLine": 99,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Migrations/20250121031916_InitialCitasMedicas.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 23,
+                  "endLine": 115,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null
+            }
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RunAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/carlo/Downloads/sexto/pruebas/segundaparcial/pruebav3/GestionCitasMedicas/GestionCitasMedicas/Program.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 1,
+                  "endLine": 30,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de declararlo como que admite un valor NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Hard-coded credentials are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6966",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
